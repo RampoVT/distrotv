@@ -15,9 +15,8 @@ class DistroTVScraper:
         self.feed_url = "https://tv.jsrdn.com/tv_v5/getfeed.php"
         self.epg_url = "https://tv.jsrdn.com/epg/query.php"
         self.target_topic = 70  # US / International English
-        self.headers = {
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36'
-        }
+        self.ua = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+        self.headers = {'User-Agent': self.ua}
 
     def fetch_channels(self) -> List[Dict[str, Any]]:
         try:
@@ -62,14 +61,20 @@ class DistroTVScraper:
     def generate_m3u(self, channels: List[Dict[str, Any]]):
         now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         m3u = ["#EXTM3U", f"# Last Updated: {now} UTC"]
-        ua = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+        referrer = "https://www.distro.tv/"
         
         for ch in sorted(channels, key=lambda x: x['name'].lower()):
-            m3u.append(f'#EXTINF:-1 tvg-id="{ch["id"]}" tvg-logo="{ch["logo"]}" group-title="{ch["group"]}",{ch["name"]}')
-            # CRITICAL HEADERS
-            m3u.append("#EXTVLCOPT:http-referrer=https://www.distro.tv/")
-            m3u.append("#EXTVLCOPT:http-origin=https://www.distro.tv/")
-            m3u.append(f"#EXTVLCOPT:http-user-agent={ua}")
+            # Logic: Add headers as KVP tags inside #EXTINF for modern players
+            # and as #EXTVLCOPT lines for VLC/Legacy players.
+            inf_line = (f'#EXTINF:-1 tvg-id="{ch["id"]}" tvg-logo="{ch["logo"]}" '
+                        f'group-title="{ch["group"]}" '
+                        f'http-referrer="{referrer}" '
+                        f'http-origin="{referrer}" '
+                        f'http-user-agent="{self.ua}",{ch["name"]}')
+            m3u.append(inf_line)
+            m3u.append(f'#EXTVLCOPT:http-referrer={referrer}')
+            m3u.append(f'#EXTVLCOPT:http-origin={referrer}')
+            m3u.append(f'#EXTVLCOPT:http-user-agent={self.ua}')
             m3u.append(ch["stream_url"])
             
         return "\n".join(m3u)
