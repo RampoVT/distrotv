@@ -12,47 +12,64 @@ logger = logging.getLogger("distrotv_scraper")
 
 class DistroTVScraper:
     def __init__(self):
+        # API Endpoints from Provider script
         self.feed_url = "https://tv.jsrdn.com/tv_v5/getfeed.php"
         self.epg_url = "https://tv.jsrdn.com/epg/query.php"
-        self.target_topic = 70  # US / International English
-        self.ua = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
-        self.headers = {'User-Agent': self.ua}
+        
+        # Enhanced Headers from Provider script
+        self.headers = {
+            'User-Agent': 'Dalvik/2.1.0 (Linux; U; Android 9; AFTT Build/STT9.221129.002) GTV/AFTT DistroTV/2.0.9'
+        }
 
     def fetch_channels(self) -> List[Dict[str, Any]]:
         try:
-            logger.info(f"Fetching V5 feed for Topic {self.target_topic}...")
+            logger.info("Fetching DistroTV V5 feed...")
+            # Using timestamp logic for cache busting as seen in previous runs
             response = requests.get(f"{self.feed_url}?t={int(time.time())}", headers=self.headers, timeout=30)
             response.raise_for_status()
             data = response.json()
             
-            topic_list = data.get("topics", [])
-            target_show_ids = []
-            for t in topic_list:
-                if t.get("id") == self.target_topic:
-                    target_show_ids = t.get("items", [])
-                    break
-            
+            # Use the "shows" dictionary directly as in the provider logic
             shows = data.get("shows", {})
             channels = []
             
-            for ch_id_str in target_show_ids:
-                ch_data = shows.get(ch_id_str)
-                if not ch_data or ch_data.get("type") != "live":
+            for ch_id, ch_data in shows.items():
+                # Only process live content
+                if ch_data.get("type") != "live":
                     continue
                 
                 try:
-                    stream_url = ch_data["seasons"][0]["episodes"][0]["content"]["url"]
+                    # Logic from provider: Navigate nested seasons/episodes structure
+                    seasons = ch_data.get("seasons", [])
+                    if not seasons: continue
+                    
+                    episodes = seasons[0].get("episodes", [])
+                    if not episodes: continue
+                    
+                    content = episodes[0].get("content", {})
+                    stream_url = content.get("url", "")
+                    if not stream_url: continue
+
+                    # Provider logic: Clean URL and extract metadata
+                    stream_url = stream_url.split('?', 1)[0]
+                    raw_id = ch_data.get("name", "")
+                    title = ch_data.get("title", "").strip()
+                    
+                    if not raw_id or not title: continue
+
                     channels.append({
-                        'id': f"distrotv-{ch_data['name']}",
-                        'raw_id': ch_data['name'],
-                        'name': ch_data.get("title", "").strip(),
+                        'id': f"distrotv-{raw_id}",
+                        'raw_id': raw_id,
+                        'name': title,
                         'stream_url': stream_url,
                         'logo': ch_data.get("img_logo", ""),
-                        'group': ch_data.get("genre", "DistroTV English")
+                        'group': ch_data.get("genre", "DistroTV"),
+                        'description': ch_data.get("description", "").strip()
                     })
-                except:
+                except Exception as e:
                     continue
             
+            logger.info(f"Successfully parsed {len(channels)} live channels.")
             return channels
         except Exception as e:
             logger.error(f"Feed error: {e}")
@@ -64,16 +81,16 @@ class DistroTVScraper:
         referrer = "https://www.distro.tv/"
         
         for ch in sorted(channels, key=lambda x: x['name'].lower()):
-            # Logic: Add headers as KVP tags inside #EXTINF and as #EXTVLCOPT lines
+            # Maintain the header injection logic required for playback
             inf_line = (f'#EXTINF:-1 tvg-id="{ch["id"]}" tvg-logo="{ch["logo"]}" '
                         f'group-title="{ch["group"]}" '
                         f'http-referrer="{referrer}" '
                         f'http-origin="{referrer}" '
-                        f'http-user-agent="{self.ua}",{ch["name"]}')
+                        f'http-user-agent="{self.headers["User-Agent"]}",{ch["name"]}')
             m3u.append(inf_line)
             m3u.append(f'#EXTVLCOPT:http-referrer={referrer}')
             m3u.append(f'#EXTVLCOPT:http-origin={referrer}')
-            m3u.append(f'#EXTVLCOPT:http-user-agent={self.ua}')
+            m3u.append(f'#EXTVLCOPT:http-user-agent={self.headers["User-Agent"]}')
             m3u.append(ch["stream_url"])
             
         return "\n".join(m3u)
@@ -87,7 +104,7 @@ class DistroTVScraper:
 
         for ch in channels:
             try:
-                resp = requests.get(self.epg_url, params={'ch': ch['raw_id']}, headers=self.headers, timeout=10)
+                resp = requests.get(self.epg_url, params={'ch': ch['raw_id']}, headers=self.headers, timeout=5)
                 if resp.status_code == 200:
                     for prog in resp.json().get('listings', []):
                         start = datetime.fromtimestamp(int(prog['start'])).strftime("%Y%m%d%H%M%S +0000")
@@ -103,11 +120,24 @@ class DistroTVScraper:
 if __name__ == "__main__":
     scraper = DistroTVScraper()
     ch_list = scraper.fetch_channels()
+    
     if ch_list:
+        # Save M3U and JSON first to ensure they are written even if EPG hangs
+        logger.info(f"Writing {len(ch_list)} channels to distrotv.m3u...")
         with open("distrotv.m3u", "w", encoding="utf-8") as f:
             f.write(scraper.generate_m3u(ch_list))
-        with open("distrotv_epg.xml", "w", encoding="utf-8") as f:
-            f.write(scraper.generate_epg_xml(ch_list))
+        
         with open("distrotv_channels.json", "w", encoding="utf-8") as f:
             json.dump(ch_list, f, indent=4)
-        logger.info("Files successfully generated and saved.")
+            
+        # Attempt EPG
+        logger.info("Starting EPG generation...")
+        try:
+            epg_content = scraper.generate_epg_xml(ch_list)
+            with open("distrotv_epg.xml", "w", encoding="utf-8") as f:
+                f.write(epg_content)
+            logger.info("EPG file written successfully.")
+        except Exception as e:
+            logger.error(f"EPG generation failed: {e}")
+            
+        logger.info("Scraper task finished.")
