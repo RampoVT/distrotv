@@ -2,7 +2,7 @@ name: Update DistroTV Playlist and EPG
 
 on:
   schedule:
-    - cron: '0 * * * *' 
+    - cron: '0 * * * *'  # Runs every hour
   workflow_dispatch:
   push:
     branches:
@@ -34,5 +34,8 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add distrotv_channels.json distrotv.m3u distrotv_epg.xml
-          git commit -m "Update DistroTV with Enhanced Headers: $(date -u +'%Y-%m-%d %H:%M:%S') UTC" || exit 0
+          
+          # Force the commit to happen to keep tokens fresh
+          git commit --allow-empty -m "Updated DistroTV Streams: $(date -u +'%Y-%m-%d %H:%M:%S') UTC"
+          
           git push
