@@ -2,11 +2,11 @@ name: Update DistroTV Playlist and EPG
 
 on:
   schedule:
-    - cron: '0 */6 * * *'  # Runs every 6 hours
-  workflow_dispatch:       # Allows manual trigger from GitHub Actions tab
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
   push:
     branches:
-      - main               # Runs on every push to main
+      - main
 
 jobs:
   build:
@@ -27,21 +27,18 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests==2.31.0 typing-extensions==4.7.1
 
-      - name: Run DistroTV Scraper
+      - name: Run Scraper and EPG Generator
+        # This one script now generates all 3 files: .json, .m3u, and .xml
         run: python scraper.py
-
-      - name: Run EPG Generator
-        run: python epg_gen.py
 
       - name: Deploy to Repo
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           
-          # Stage the JSON data, M3U playlist, and XML EPG
+          # Stage all generated files
           git add distrotv_channels.json distrotv.m3u distrotv_epg.xml
           
-          # Commit only if changes exist
           git commit -m "Update DistroTV Data: $(date -u +'%Y-%m-%d %H:%M:%S') UTC" || exit 0
           
           git push
