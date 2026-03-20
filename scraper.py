@@ -76,7 +76,7 @@ class DistroTVScraper:
                 if not stream_url:
                     continue
                 
-                # Clean URL of query parameters
+                # Clean URL of query parameters (keeps playlist URLs clean)
                 clean_url = stream_url.split('?', 1)[0]
                 
                 channel_name = ch_data.get("name", "")
@@ -103,16 +103,61 @@ class DistroTVScraper:
                 logger.debug(f"Skipping channel {ch_key} due to error: {e}")
                 continue
         
-        logger.info(f"Successfully scraped {len(channels)} channels")
+        logger.info(f"Successfully processed {len(channels)} channels")
         return channels
 
-    def save_to_json(self, filename="distrotv_channels.json"):
-        """Utility to save results to a local file"""
+    def generate_m3u(self, channels: List[Dict[str, Any]] = None) -> str:
+        """Generates an M3U8 playlist string from the processed channels"""
+        if channels is None:
+            channels = self.get_channels()
+
+        m3u_lines = ["#EXTM3U"]
+        
+        # Sort channels by name for tidier list
+        sorted_channels = sorted(channels, key=lambda x: x['name'].lower())
+
+        for channel in sorted_channels:
+            # Map scraped data to M3U fields
+            # tvg-id: used for EPG matching
+            # tvg-logo: channel icon
+            # group-title: genre grouping in players
+            metadata_parts = [
+                f'tvg-id="{channel["id"]}"',
+                f'tvg-name="{channel["name"]}"',
+                f'tvg-logo="{channel["logo"]}"',
+                f'group-title="{channel["group"]}"'
+            ]
+            
+            metadata_str = " ".join(metadata_parts)
+            
+            # EXTINF line format: #EXTINF:-1 <metadata>,<channel_name>
+            m3u_lines.append(f'#EXTINF:-1 {metadata_str},{channel["name"]}')
+            # The stream URL line
+            m3u_lines.append(channel["stream_url"])
+
+        logger.info(f"Generated M3U playlist with {len(sorted_channels)} entries")
+        return "\n".join(m3u_lines)
+
+    def save_results(self, json_filename="distrotv_channels.json", m3u_filename="distrotv.m3u"):
+        """Gets channels once and saves both JSON and M3U formats"""
         channels = self.get_channels()
-        with open(filename, 'w', encoding='utf-8') as f:
+        
+        if not channels:
+            logger.warning("No channel data retrieved, skipping save.")
+            return
+
+        # Save JSON
+        with open(json_filename, 'w', encoding='utf-8') as f:
             json.dump(channels, f, indent=4)
-        logger.info(f"Saved data to {filename}")
+        logger.info(f"Saved JSON data to {json_filename}")
+
+        # Save M3U
+        m3u_content = self.generate_m3u(channels)
+        with open(m3u_filename, 'w', encoding='utf-8') as f:
+            f.write(m3u_content)
+        logger.info(f"Saved M3U playlist to {m3u_filename}")
 
 if __name__ == "__main__":
     scraper = DistroTVScraper()
-    scraper.save_to_json()
+    # Updated to save both files
+    scraper.save_results()
