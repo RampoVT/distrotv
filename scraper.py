@@ -23,7 +23,7 @@ class DistroTVScraper:
         }
 
     def fetch_channels(self) -> List[Dict[str, Any]]:
-        """Scrapes the live channel list from DistroTV"""
+        """Scrapes the live channel list. URLs are kept in full for playback."""
         try:
             logger.info("Fetching live channel feed...")
             response = requests.get(self.feed_url, headers=self.headers, timeout=30)
@@ -38,24 +38,25 @@ class DistroTVScraper:
                     continue
                     
                 try:
-                    # Navigate nested seasons -> episodes -> content -> url
                     seasons = ch_data.get("seasons", [])
                     if not seasons: continue
                     episodes = seasons[0].get("episodes", [])
                     if not episodes: continue
                     content = episodes[0].get("content", {})
+                    
+                    # IMPORTANT: We do NOT split the URL anymore. 
+                    # We keep the tokens so the stream plays.
                     stream_url = content.get("url", "")
                     if not stream_url: continue
                     
-                    clean_url = stream_url.split('?', 1)[0]
                     channel_name = ch_data.get("name", "")
                     title = ch_data.get("title", "").strip()
                     
                     channels.append({
                         'id': f"distrotv-{channel_name}",
-                        'raw_id': channel_name, # Needed for EPG query
+                        'raw_id': channel_name, 
                         'name': title,
-                        'stream_url': clean_url,
+                        'stream_url': stream_url,
                         'logo': ch_data.get("img_logo", ""),
                         'group': ch_data.get("genre", "DistroTV"),
                         'description': ch_data.get("description", "").strip()
@@ -70,7 +71,6 @@ class DistroTVScraper:
             return []
 
     def generate_m3u(self, channels: List[Dict[str, Any]]):
-        """Creates the M3U8 playlist content"""
         m3u = ["#EXTM3U"]
         for ch in sorted(channels, key=lambda x: x['name'].lower()):
             metadata = f'tvg-id="{ch["id"]}" tvg-logo="{ch["logo"]}" group-title="{ch["group"]}"'
@@ -79,22 +79,17 @@ class DistroTVScraper:
         return "\n".join(m3u)
 
     def generate_epg_xml(self, channels: List[Dict[str, Any]]):
-        """Fetches program data and builds the XMLTV file"""
-        root = ET.Element("tv", {
-            "generator-info-name": "DistroTV-Scraper",
-            "generator-info-url": "https://github.com/BuddyChewChew/distrotv"
-        })
+        root = ET.Element("tv", {"generator-info-name": "DistroTV-Scraper"})
 
-        # Add channel headers
         for ch in channels:
             c_node = ET.SubElement(root, "channel", id=ch['id'])
             ET.SubElement(c_node, "display-name").text = ch['name']
             ET.SubElement(c_node, "icon", src=ch['logo'])
 
-        # Fetch programs for each channel
-        logger.info("Fetching EPG listings for channels...")
+        logger.info("Fetching EPG listings and descriptions...")
         for ch in channels:
             try:
+                # Query using the raw ID for the EPG API
                 params = {'ch': ch['raw_id']}
                 resp = requests.get(self.epg_url, params=params, headers=self.headers, timeout=10)
                 if resp.status_code == 200:
@@ -109,7 +104,10 @@ class DistroTVScraper:
                             "channel": ch['id']
                         })
                         ET.SubElement(p_node, "title", lang="en").text = prog.get('title', 'No Title')
-                        ET.SubElement(p_node, "desc", lang="en").text = prog.get('description', '')
+                        # Descriptions are now pulled and mapped correctly
+                        desc_text = prog.get('description', 'No description available.')
+                        ET.SubElement(p_node, "desc", lang="en").text = desc_text
+                time.sleep(0.05) # Prevent rate limiting
             except Exception:
                 continue
 
@@ -117,23 +115,16 @@ class DistroTVScraper:
 
 if __name__ == "__main__":
     scraper = DistroTVScraper()
-    
-    # 1. Get the channels
     channels = scraper.fetch_channels()
     
     if channels:
-        # 2. Save JSON
+        # Save JSON for backup
         with open("distrotv_channels.json", "w", encoding="utf-8") as f:
             json.dump(channels, f, indent=4)
-            
-        # 3. Save M3U
+        # Save M3U Playlist
         with open("distrotv.m3u", "w", encoding="utf-8") as f:
             f.write(scraper.generate_m3u(channels))
-            
-        # 4. Save EPG
+        # Save XMLTV Guide
         with open("distrotv_epg.xml", "w", encoding="utf-8") as f:
             f.write(scraper.generate_epg_xml(channels))
-            
-        logger.info("All files (JSON, M3U, XML) updated successfully.")
-    else:
-        logger.error("No channels found. Files were not updated.")
+        logger.info("Update Complete.")
