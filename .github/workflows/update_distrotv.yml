@@ -39,10 +39,7 @@ jobs:
           
           git add distrotv.m3u distrotv_epg.xml distrotv_channels.json
           
-          if git diff --staged --quiet; then
-            echo "No changes to commit"
-          else
-            git pull origin main --rebase
-            git commit -m "Update Playlist with Enhanced Headers: $(date -u +'%Y-%m-%d %H:%M:%S') UTC"
-            git push --force origin main
-          fi
+          # Force an update even if files look identical to avoid 'No changes' skip
+          git pull origin main --rebase
+          git commit --allow-empty -m "Auto Update with Enhanced Headers: $(date -u +'%Y-%m-%d %H:%M:%S') UTC"
+          git push --force origin main
