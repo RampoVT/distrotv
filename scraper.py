@@ -21,8 +21,9 @@ class DistroTVScraper:
 
     def fetch_channels(self) -> List[Dict[str, Any]]:
         try:
+            # Bypass cache by adding a timestamp to the request
             logger.info(f"Fetching V5 feed for Topic {self.target_topic}...")
-            response = requests.get(self.feed_url, headers=self.headers, timeout=30)
+            response = requests.get(f"{self.feed_url}?t={int(time.time())}", headers=self.headers, timeout=30)
             response.raise_for_status()
             data = response.json()
             
@@ -60,18 +61,18 @@ class DistroTVScraper:
             return []
 
     def generate_m3u(self, channels: List[Dict[str, Any]]):
-        m3u = ["#EXTM3U"]
-        # Standardized User Agent for the M3U options
+        # Force a change in the file by adding a current timestamp comment
+        now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        m3u = [f"#EXTM3U", f"# Last Updated: {now} UTC"]
+        
+        # Consistent User-Agent for the headers
         ua = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
         
         for ch in sorted(channels, key=lambda x: x['name'].lower()):
-            # Header line
             m3u.append(f'#EXTINF:-1 tvg-id="{ch["id"]}" tvg-logo="{ch["logo"]}" group-title="{ch["group"]}",{ch["name"]}')
-            # VLC/IPTV Player Options for Referrer and Origin
             m3u.append(f'#EXTVLCOPT:http-referrer=https://www.distro.tv/')
             m3u.append(f'#EXTVLCOPT:http-origin=https://www.distro.tv/')
             m3u.append(f'#EXTVLCOPT:http-user-agent={ua}')
-            # The URL
             m3u.append(ch["stream_url"])
             
         return "\n".join(m3u)
