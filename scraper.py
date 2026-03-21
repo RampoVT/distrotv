@@ -52,6 +52,10 @@ class DistroTVScraper:
                     raw_id = ch_data.get("name", "")
                     title = ch_data.get("title", "").strip()
                     
+                    # Logic: Split the group string by comma and take only the first category
+                    raw_group = ch_data.get("genre", "DistroTV")
+                    clean_group = raw_group.split(',')[0].strip()
+                    
                     if not raw_id or not title: continue
 
                     channels.append({
@@ -60,7 +64,7 @@ class DistroTVScraper:
                         'name': title,
                         'stream_url': stream_url,
                         'logo': ch_data.get("img_logo", ""),
-                        'group': ch_data.get("genre", "DistroTV"),
+                        'group': clean_group,
                         'description': ch_data.get("description", "").strip()
                     })
                 except Exception:
@@ -119,7 +123,7 @@ if __name__ == "__main__":
     ch_list = scraper.fetch_channels()
     
     if ch_list:
-        # STEP 1: Save M3U and JSON first
+        # STEP 1: Save M3U and JSON first to ensure data is written if EPG hangs
         logger.info(f"Writing {len(ch_list)} channels to distrotv.m3u...")
         with open("distrotv.m3u", "w", encoding="utf-8") as f:
             f.write(scraper.generate_m3u(ch_list))
@@ -127,7 +131,7 @@ if __name__ == "__main__":
         with open("distrotv_channels.json", "w", encoding="utf-8") as f:
             json.dump(ch_list, f, indent=4)
             
-        # STEP 2: Attempt EPG (wrapped in try/except so it doesn't kill the M3U update)
+        # STEP 2: Attempt EPG
         logger.info("Starting EPG generation...")
         try:
             epg_content = scraper.generate_epg_xml(ch_list)
