@@ -2745,6 +2745,15 @@
         "description": "When fishing isn\u2019t just a sport but a way of life. Follow Dan Hernandez to catch more fish around the world."
     },
     {
+        "id": "distrotv-absinthe-tv",
+        "raw_id": "absinthe-tv",
+        "name": "Absinthe TV",
+        "stream_url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/absinthe-tv/manifest.m3u8",
+        "logo": "https://a.jsrdn.com/hls/23064/absinthe-tv/logo_20260324_011120_68.png",
+        "group": "Sports",
+        "description": "Absinthe TV: The Adventure Sports Channel. The best in SURF, SKATE, SNOW, ART, MUSIC and ADVENTURE!"
+    },
+    {
         "id": "distrotv-americas-boating-channel",
         "raw_id": "americas-boating-channel",
         "name": "AMERICA'S BOATING CHANNEL",
@@ -2752,5 +2761,59 @@
         "logo": "https://a.jsrdn.com/hls/23064/americas-boating-channel/logo_20260324_011816_68.png",
         "group": "Lifestyle",
         "description": "AMERICA\u2019S BOATING CHANNEL\u2122 is a family-friendly marine entertainment channel featuring boating education, Coast Guard training, naval series, boat races and sea-themed movies. A unique destination to explore life on the water through adventure, learning and fun."
+    },
+    {
+        "id": "distrotv-chrono-tv",
+        "raw_id": "chrono-tv",
+        "name": "CHRONO TV",
+        "stream_url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/chrono-tv/manifest.m3u8",
+        "logo": "https://a.jsrdn.com/hls/23064/chrono-tv/logo_20260324_012150_68.png",
+        "group": "Sports",
+        "description": "CHORNO TV brings you the great moments of motorsport, in the intimacy of the F1 drivers and the teams."
+    },
+    {
+        "id": "distrotv-drive-plus-speed",
+        "raw_id": "drive-plus-speed",
+        "name": "DRIVE + SPEED",
+        "stream_url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/drive-plus-speed/manifest.m3u8",
+        "logo": "https://a.jsrdn.com/hls/22626/drive-plus-speed/logo_20260324_012751_68.jpg",
+        "group": "Sports",
+        "description": "DRIVE + SPEED is your go-to destination for the epitome of Formula 1 excitement"
+    },
+    {
+        "id": "distrotv-fight-tv",
+        "raw_id": "fight-tv",
+        "name": "FIGHT TV",
+        "stream_url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/fight-tv/manifest.m3u8",
+        "logo": "https://a.jsrdn.com/hls/23064/fight-tv/logo_20260324_013251_68.png",
+        "group": "Sports",
+        "description": "FIGHT TV is the channel devoted to broadcasting combat sports, including Wrestling, Boxing, Mixed Martial Arts, K1, MuayTha\u00ef, Kung-Fu, and training tips."
+    },
+    {
+        "id": "distrotv-horror-tv",
+        "raw_id": "horror-tv",
+        "name": "HORROR TV",
+        "stream_url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/horror-tv/master.m3u8",
+        "logo": "https://a.jsrdn.com/hls/23064/horror-tv/logo_20260324_013632_68.png",
+        "group": "Entertainment",
+        "description": "HORROR TV is a premium movie channel dedicated to the best of horror cinema, featuring a wide selection of chilling films from cult classics to modern thrillers. A must-watch destination for fans of dark and intense storytelling."
+    },
+    {
+        "id": "distrotv-test-my-ride",
+        "raw_id": "test-my-ride",
+        "name": "TEST MY RIDE",
+        "stream_url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/test-my-ride/master.m3u8",
+        "logo": "https://a.jsrdn.com/hls/23064/test-my-ride/logo_20260324_014622_68.png",
+        "group": "Sports",
+        "description": "Challenge a Formula 1 driver with your own car! Test My Ride gives drivers the opportunity to go head to head against the ex-Formula 1 driver Mika Salo."
+    },
+    {
+        "id": "distrotv-the-ring-tv",
+        "raw_id": "the-ring-tv",
+        "name": "THE RING TV",
+        "stream_url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/the-ring-tv/manifest.m3u8",
+        "logo": "https://a.jsrdn.com/hls/23064/the-ring-tv/logo_20260324_015855_68.png",
+        "group": "Sports",
+        "description": "THE RING TV is a combat sports channel featuring events across wrestling, boxing and MMA. From explosive matches to behind-the-scenes content and interviews, it delivers an immersive experience for fight fans worldwide."
     }
 ]
