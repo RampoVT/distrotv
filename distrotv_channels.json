@@ -468,15 +468,6 @@
         "description": "Bloomberg Originals is streaming news for a global view and an informed take. Watch live news on the stories changing your business and your world, powered by 2700 journalists in 120 countries."
     },
     {
-        "id": "distrotv-zoomer",
-        "raw_id": "zoomer",
-        "name": "Zoomer TV",
-        "stream_url": "https://dq126dsoud56d.cloudfront.net/v1/master/9d062541f2ff39b5c0f48b743c6411d25f62fc25/Zoomer-DistroTV/316.m3u8",
-        "logo": "https://a.jsrdn.com/hls/22923/zoomer/logo_20231219_224547_70.png",
-        "group": "Entertainment",
-        "description": "A Boomer's guide to living well. News, movies, music, plus talks and tips from the world's most influential people on health and wellness, money, technology, travel, and sex and relationships."
-    },
-    {
         "id": "distrotv-xfc-tv",
         "raw_id": "xfc-tv",
         "name": "XFC TV",

@@ -208,10 +208,6 @@
     <display-name>Bloomberg Originals</display-name>
     <icon src="https://a.jsrdn.com/hls/22938/bloomberg-originals/logo_20231219_184737_67.png"/>
   </channel>
-  <channel id="distrotv-zoomer">
-    <display-name>Zoomer TV</display-name>
-    <icon src="https://a.jsrdn.com/hls/22923/zoomer/logo_20231219_224547_70.png"/>
-  </channel>
   <channel id="distrotv-xfc-tv">
     <display-name>XFC TV</display-name>
     <icon src="https://a.jsrdn.com/hls/22915/xfc-tv/logo_20231219_224405_58.png"/>
