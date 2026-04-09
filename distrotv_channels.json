@@ -990,15 +990,6 @@
         "description": "Disfruta de carreras legendarias, la historia del automovilismo, superdeportivos espectaculares, motos, acci\u00f3n impresionante y mucho m\u00e1s."
     },
     {
-        "id": "distrotv-bleav-football",
-        "raw_id": "bleav-football",
-        "name": "Bleav Football",
-        "stream_url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/bleav-football/playlist.m3u8",
-        "logo": "https://a.jsrdn.com/hls/23091/bleav-football/logo_20231219_184637_64.png",
-        "group": "Sports",
-        "description": "Bleav Football is your football go to! Watch the best NFL and CFB shows from Bleav\u2019s leading athletes and personalities, covering today\u2019s breaking stories and hottest takes. Every team; Every Topic\u2026#WeBleav"
-    },
-    {
         "id": "distrotv-cctv-4",
         "raw_id": "cctv-4",
         "name": "CCTV-4",
