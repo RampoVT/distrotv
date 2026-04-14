@@ -16,10 +16,6 @@
     <display-name>Dove</display-name>
     <icon src="https://a.jsrdn.com/hls/22787/dove/logo_20250204_185615_68.png"/>
   </channel>
-  <channel id="distrotv-the-first">
-    <display-name>The First</display-name>
-    <icon src="https://a.jsrdn.com/hls/22803/the-first/logo_20231219_223053_36.png"/>
-  </channel>
   <channel id="distrotv-newsmax-tv">
     <display-name>Newsmax TV</display-name>
     <icon src="https://a.jsrdn.com/hls/22819/newsmax-tv/logo_20231219_220350_38.png"/>
@@ -27,10 +23,6 @@
   <channel id="distrotv-lone-star">
     <display-name>Lone Star</display-name>
     <icon src="https://a.jsrdn.com/hls/22759/lone-star/logo_20231219_215208_70.png"/>
-  </channel>
-  <channel id="distrotv-hard-knocks-fighting">
-    <display-name>Hard Knocks</display-name>
-    <icon src="https://a.jsrdn.com/hls/22817/hard-knocks-fighting/logo_20231219_202542_70.png"/>
   </channel>
   <channel id="distrotv-kaloopy">
     <display-name>Kaloopy</display-name>
@@ -172,10 +164,6 @@
     <display-name>Watchit Scream!</display-name>
     <icon src="https://a.jsrdn.com/hls/22915/watchit-scream/logo_20231219_224119_67.png"/>
   </channel>
-  <channel id="distrotv-sportsgrid">
-    <display-name>SportsGrid</display-name>
-    <icon src="https://a.jsrdn.com/hls/22918/sportsgrid/logo_20231219_222046_68.png"/>
-  </channel>
   <channel id="distrotv-revry">
     <display-name>Revry</display-name>
     <icon src="https://a.jsrdn.com/hls/22919/revry/logo_20231219_221503_68.png"/>
@@ -280,10 +268,6 @@
     <display-name>Hare Krsna</display-name>
     <icon src="https://a.jsrdn.com/hls/22994/hare-krsna/logo_20231219_202633_68.png"/>
   </channel>
-  <channel id="distrotv-tv-punjab">
-    <display-name>TV Punjab</display-name>
-    <icon src="https://a.jsrdn.com/hls/23015/tv-punjab/logo_20231219_223846_50.png"/>
-  </channel>
   <channel id="distrotv-swerve-combat">
     <display-name>Swerve Combat</display-name>
     <icon src="https://a.jsrdn.com/hls/23018/swerve-combat/logo_20231219_222813_26.png"/>
@@ -312,10 +296,6 @@
     <display-name>ABP Sanjha</display-name>
     <icon src="https://a.jsrdn.com/hls/23011/abp-sanjha/logo_20250512_175546_68.png"/>
   </channel>
-  <channel id="distrotv-bless-tv">
-    <display-name>Bless TV</display-name>
-    <icon src="https://a.jsrdn.com/hls/23015/bless-tv/logo_20231219_184716_61.png"/>
-  </channel>
   <channel id="distrotv-afriwood-blockbuster">
     <display-name>Afriwood Blockbuster</display-name>
     <icon src="https://a.jsrdn.com/hls/23181/afriwood-blockbuster/logo_20231219_184011_68.png"/>
@@ -327,10 +307,6 @@
   <channel id="distrotv-true-african">
     <display-name>True African</display-name>
     <icon src="https://a.jsrdn.com/hls/23181/true-african/logo_20231219_223636_67.png"/>
-  </channel>
-  <channel id="distrotv-naturestreamtv">
-    <display-name>NatureStream.tv</display-name>
-    <icon src="https://a.jsrdn.com/hls/23037/naturestreamtv/logo_20231219_220128_53.png"/>
   </channel>
   <channel id="distrotv-fite-247">
     <display-name>FITE 24/7</display-name>
@@ -551,22 +527,6 @@
   <channel id="distrotv-ntd-news">
     <display-name>NTD News</display-name>
     <icon src="https://a.jsrdn.com/hls/23136/ntd-news/logo_20240104_172901_68.png"/>
-  </channel>
-  <channel id="distrotv-al-arabiya">
-    <display-name>Al Arabiya</display-name>
-    <icon src="https://a.jsrdn.com/hls/23137/al-arabiya/logo_20240610_195041_59.png"/>
-  </channel>
-  <channel id="distrotv-m-plus">
-    <display-name>M+</display-name>
-    <icon src="https://a.jsrdn.com/hls/23137/m-plus/logo_20231219_215325_35.png"/>
-  </channel>
-  <channel id="distrotv-pnc-drama">
-    <display-name>PNC Drama</display-name>
-    <icon src="https://a.jsrdn.com/hls/23137/pnc-drama/logo_20240610_192157_60.png"/>
-  </channel>
-  <channel id="distrotv-rotana-aflam-plus">
-    <display-name>Rotana Aflam+</display-name>
-    <icon src="https://a.jsrdn.com/hls/23137/rotana-aflam-plus/logo_20231219_221653_60.png"/>
   </channel>
   <channel id="distrotv-mediacorp-entertainment-chinese">
     <display-name>Mediacorp Entertainment – Chinese</display-name>

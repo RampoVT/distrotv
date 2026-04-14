@@ -36,15 +36,6 @@
         "description": "Escape to romance and excitement with Dove, where heartwarming stories, light-hearted romances, inspiring dramas, and holiday escapes await. Your home away from home. Live. Laugh. Dove."
     },
     {
-        "id": "distrotv-the-first",
-        "raw_id": "the-first",
-        "name": "The First",
-        "stream_url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/the-first/playlist.m3u8",
-        "logo": "https://a.jsrdn.com/hls/22803/the-first/logo_20231219_223053_36.png",
-        "group": "News",
-        "description": "The First is the new network for free speech and big ideas, and the new TV home of Bill O'Reilly. The First is designed for Americans who love freedom and bold opinions. Hosts include Dana Loesch, Buck Sexton, Jesse Kelly, Mike Slater, and top contributors."
-    },
-    {
         "id": "distrotv-newsmax-tv",
         "raw_id": "newsmax-tv",
         "name": "Newsmax TV",
@@ -61,15 +52,6 @@
         "logo": "https://a.jsrdn.com/hls/22759/lone-star/logo_20231219_215208_70.png",
         "group": "Entertainment",
         "description": "Welcome to the Wild West! Lone Star, the rootinest tootinest 24/7 channel, presents western feature films, classic television, serials, and shorts ranging from singing cowboys to six-gun shooters."
-    },
-    {
-        "id": "distrotv-hard-knocks-fighting",
-        "raw_id": "hard-knocks-fighting",
-        "name": "Hard Knocks",
-        "stream_url": "https://d3uyzhwvmemdyf.cloudfront.net/v1/master/9d062541f2ff39b5c0f48b743c6411d25f62fc25/Hard-Knocks-DistroTV/109.m3u8",
-        "logo": "https://a.jsrdn.com/hls/22817/hard-knocks-fighting/logo_20231219_202542_70.png",
-        "group": "Sports",
-        "description": "Hard Knocks is your go-to destination for MMA and Fighter action! With hundreds of live events, Hard Knocks packages the ultimate \"must see\" entertaining fight night content available! With a growing library of fight content and showcasing MMA action sports content, we feature the world\u2019s elite and up and coming fight athletes! Our exciting fan thrilling fights are highly publicized, having been seen on ESPN, Dish, inDemand, Comcast, beIn Sport, The Fight Network and other channels around the world. Featuring athletes such as Ronda Rousey, Elias Theodorou, and Misha Cirkunov who've used Hard Knocks as a staging ground for their careers."
     },
     {
         "id": "distrotv-kaloopy",
@@ -387,15 +369,6 @@
         "description": "Some of the most terrifying visions the horror genre has put to film, curated from festivals around the world, sit back relax and Watch it Scream!"
     },
     {
-        "id": "distrotv-sportsgrid",
-        "raw_id": "sportsgrid",
-        "name": "SportsGrid",
-        "stream_url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/sportsgrid/master.m3u8",
-        "logo": "https://a.jsrdn.com/hls/22918/sportsgrid/logo_20231219_222046_68.png",
-        "group": "Sports",
-        "description": "SportsGrid is the first 24-hour streaming sports channel with exclusive original programming providing news, odds, match-ups, and expert analysis."
-    },
-    {
         "id": "distrotv-revry",
         "raw_id": "revry",
         "name": "Revry",
@@ -630,15 +603,6 @@
         "description": "Make your life experiences richer, graceful, harmonious and in sync with the spiritual energies of the universe. Watch stimulating, uplifting, energizing content from ancient vedic teachings of INDIA. Good for viewers of all ages and geography. Absorb your self with immersive content based around the purpose of eternal human wellbeing. Watch lifestyle management classes, motivation speeches, programs for kids, Yoga, kirtan, cooking classes, documentaries, daily live worship from various ISKCON (International Society for Krishna Consciousness) temples, etc."
     },
     {
-        "id": "distrotv-tv-punjab",
-        "raw_id": "tv-punjab",
-        "name": "TV Punjab",
-        "stream_url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/tv-punjab/master.m3u8",
-        "logo": "https://a.jsrdn.com/hls/23015/tv-punjab/logo_20231219_223846_50.png",
-        "group": "News",
-        "description": "TV Punjab provides authentic and credible news and high-quality entertainment content featuring Punjabi language. Television Punjab content is designed to reflex the various cultural elements of Punjab."
-    },
-    {
         "id": "distrotv-swerve-combat",
         "raw_id": "swerve-combat",
         "name": "Swerve Combat",
@@ -702,15 +666,6 @@
         "description": "ABP Sanjha is a Punjabi language news channel reflecting the essence of Punjabiyat and focuses on delivering news & infotainment related to the Punjabis globally. The reporting & programming on the channel also strongly reflect the 3 pillars of \u2018Punjabiyat\u2019 \u2013Josh, Jazba & Junoon."
     },
     {
-        "id": "distrotv-bless-tv",
-        "raw_id": "bless-tv",
-        "name": "Bless TV",
-        "stream_url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/bless-tv/master.m3u8",
-        "logo": "https://a.jsrdn.com/hls/23015/bless-tv/logo_20231219_184716_61.png",
-        "group": "Lifestyle",
-        "description": "Bless TV is a Faith and Lifestyle channel, featuring inspirational programs that include Food & Flavor, Yoga, Spirituality, Religion, Worship, Music, Health & Fitness, Fashion, Beauty, Culture, Travel, Trends and Technology."
-    },
-    {
         "id": "distrotv-afriwood-blockbuster",
         "raw_id": "afriwood-blockbuster",
         "name": "Afriwood Blockbuster",
@@ -736,15 +691,6 @@
         "logo": "https://a.jsrdn.com/hls/23181/true-african/logo_20231219_223636_67.png",
         "group": "Entertainment",
         "description": "True African is a general entertainment channel with authentic African heartbeat stories for Africa by Africa. True African offers content from all around Africa with everything from lifestyle, music and sports - to movies, reality and soaps - all with a True African flavor made by Africa."
-    },
-    {
-        "id": "distrotv-naturestreamtv",
-        "raw_id": "naturestreamtv",
-        "name": "NatureStream.tv",
-        "stream_url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/naturestreamtv/master.m3u8",
-        "logo": "https://a.jsrdn.com/hls/23037/naturestreamtv/logo_20231219_220128_53.png",
-        "group": "Travel",
-        "description": "Your TV can be a window to a world of beauty, serenity, and well being. Our relaxing nature films and art displays can transform any environment into a natural oasis. Experiencing the beauty and wonder of nature helps reduce anxiety and stress, and increases positive emotions. Get your daily dose of awe & wonder with\u00a0NatureStream.tv!"
     },
     {
         "id": "distrotv-fite-247",
@@ -1240,42 +1186,6 @@
         "logo": "https://a.jsrdn.com/hls/23136/ntd-news/logo_20240104_172901_68.png",
         "group": "News",
         "description": "An independent global news network delivering truthful and uncensored news from the US and beyond.\u00a0We cover the issues that affect you and shape our world, without the political noise. We\u2019re famous for our thoughtful in-depth analyses and our\u00a0speciality\u2014China coverage you won't find anywhere else."
-    },
-    {
-        "id": "distrotv-al-arabiya",
-        "raw_id": "al-arabiya",
-        "name": "Al Arabiya",
-        "stream_url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/al-arabiya/master.m3u8",
-        "logo": "https://a.jsrdn.com/hls/23137/al-arabiya/logo_20240610_195041_59.png",
-        "group": "News",
-        "description": "The Arab world news channel. It is the choice for Arabs looking for reliable news on the Middle East and the world."
-    },
-    {
-        "id": "distrotv-m-plus",
-        "raw_id": "m-plus",
-        "name": "M+",
-        "stream_url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/m-plus/master.m3u8",
-        "logo": "https://a.jsrdn.com/hls/23137/m-plus/logo_20231219_215325_35.png",
-        "group": "Music",
-        "description": "The most popular Arab video clips. Popular musical Arab channel broadcasting various selections of the best hits from the whole Arab world."
-    },
-    {
-        "id": "distrotv-pnc-drama",
-        "raw_id": "pnc-drama",
-        "name": "PNC Drama",
-        "stream_url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/pnc-drama/master.m3u8",
-        "logo": "https://a.jsrdn.com/hls/23137/pnc-drama/logo_20240610_192157_60.png",
-        "group": "Entertainment",
-        "description": "Find the latest series exclusively. The channel broadcasts famous Arabic series all day long."
-    },
-    {
-        "id": "distrotv-rotana-aflam-plus",
-        "raw_id": "rotana-aflam-plus",
-        "name": "Rotana Aflam+",
-        "stream_url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/rotana-aflam-plus/master.m3u8",
-        "logo": "https://a.jsrdn.com/hls/23137/rotana-aflam-plus/logo_20231219_221653_60.png",
-        "group": "Entertainment",
-        "description": "Be the first to watch the latest Arab movies. Arab movie channel offering its viewers early access to the most recent films."
     },
     {
         "id": "distrotv-mediacorp-entertainment-chinese",
