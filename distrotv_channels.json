@@ -216,15 +216,6 @@
         "description": "Welcome to XFC TV! Home of the XFC FightWorld Network."
     },
     {
-        "id": "distrotv-wion-world-is-one-news",
-        "raw_id": "wion-world-is-one-news",
-        "name": "WION World is One News",
-        "stream_url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/wion-world-is-one-news/index.m3u8",
-        "logo": "https://a.jsrdn.com/hls/22975/wion-world-is-one-news/logo_20231219_224158_68.png",
-        "group": "News",
-        "description": "WION (World is One News) is one of the fastest growing News channels in the world. WION a multinational English news channel examines global issues with in-depth analysis. It is a 24x7 News Network with presence is 80 countries and growing. WION is headquartered in New Delhi, India."
-    },
-    {
         "id": "distrotv-garv-punjab-gurbani",
         "raw_id": "garv-punjab-gurbani",
         "name": "Garv Punjab Gurbani",
@@ -306,15 +297,6 @@
         "description": "Africanews is the only multilingual media outlet covering the latest news and curating compelling stories across the continent from a pan-African perspective. Impartial and independent, Africanews delivers national, regional and international news, and creates a bridge between audiences across the continent and the diaspora."
     },
     {
-        "id": "distrotv-pitaara-tv",
-        "raw_id": "pitaara-tv",
-        "name": "Pitaara TV",
-        "stream_url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/pitaara-tv/playlist.m3u8",
-        "logo": "https://a.jsrdn.com/hls/23049/pitaara-tv/logo_20231219_220959_63.png",
-        "group": "Entertainment",
-        "description": "World's first Punjabi Movie Channel. Enjoy 24x7 comedy, romance and action packed Punjabi movies on Pitaara TV! Pitaara also brings out the latest of the updates from the Punjabi music and film industry with exclusive interviews with celebrities and a lot more!"
-    },
-    {
         "id": "distrotv-watchit-kid",
         "raw_id": "watchit-kid",
         "name": "Watchit Kid!",
@@ -387,15 +369,6 @@
         "description": "TRACE Latina\u00a0is\u00a0the\u00a0ultimate\u00a0premium\u00a0channel\u00a0entirely\u00a0dedicated\u00a0to Latin music and culture 24/7. TRACE Latina showcases the best of Latin Urban\u00a0rhythms:\u00a0Salsa, Reggaeton, Bachata, Merengue, Samba, Batucada, Mambo, Rumba, Pop, Rap and\u00a0many\u00a0more. TRACE Latina\u00a0brings\u00a0you\u00a0the essence of Latin culture\u00a0with\u00a0the best of music vid\u00e9os,\u00a0interviews, concerts\u00a0and\u00a0documentaries."
     },
     {
-        "id": "distrotv-trace-urban",
-        "raw_id": "trace-urban",
-        "name": "TRACE Urban",
-        "stream_url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/trace-urban/encrypted.m3u8",
-        "logo": "https://a.jsrdn.com/hls/23073/trace-urban/logo_20231219_223537_68.png",
-        "group": "Music",
-        "description": "TRACE Urban\u00a0is\u00a0the first music\u00a0channel\u00a0exclusively\u00a0dedicated\u00a0to\u00a0urban\u00a0music and culture. TRACE Urban\u00a0offers\u00a0a unique\u00a0approach\u00a0to the\u00a0urban\u00a0world\u00a0through\u00a0the\u00a0latest music\u00a0videos, exclusive interviews\u00a0with\u00a0top\u00a0celebrities\u00a0plus unique\u00a0magazines and\u00a0documentaries."
-    },
-    {
         "id": "distrotv-bollywood-classic",
         "raw_id": "bollywood-classic",
         "name": "Bollywood Classic",
@@ -430,24 +403,6 @@
         "logo": "https://a.jsrdn.com/hls/23073/trace-brazuca/logo_20231219_223457_68.png",
         "group": "Music",
         "description": "TRACE\u00a0Brazuca\u00a0is\u00a0the #1 Music\u00a0channel\u00a0dedicated\u00a0to the best\u00a0urban\u00a0music\u00a0videos and content\u00a0from\u00a0Brazil. TRACE\u00a0Brazuca\u00a0gives\u00a0a unique insight\u00a0into\u00a0Brazilian\u00a0music and culture. It airs the\u00a0most\u00a0popular\u00a0music genres,\u00a0focusing\u00a0on the\u00a0latest\u00a0in Funk, Rap, Samba, Pagode, and\u00a0covers\u00a0many\u00a0aspects of the lusophone life.\u00a0We\u00a0are\u00a0m\u00fasica\u00a0Urbana!"
-    },
-    {
-        "id": "distrotv-motorvision-tv",
-        "raw_id": "motorvision-tv",
-        "name": "Motorvision TV",
-        "stream_url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/motorvision-tv/a.m3u8",
-        "logo": "https://a.jsrdn.com/hls/22886/motorvision-tv/logo_20231219_220026_63.png",
-        "group": "Lifestyle",
-        "description": "Enjoy legendary races in motorsport history, great retro footage, spectacular supercars, breath-taking action and much more."
-    },
-    {
-        "id": "distrotv-motorvision-tv-espanol",
-        "raw_id": "motorvision-tv-espanol",
-        "name": "Motorvision TV Espa\u00f1ol",
-        "stream_url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/motorvision-tv-espanol/mv_es.m3u8",
-        "logo": "https://a.jsrdn.com/hls/22886/motorvision-tv-espanol/logo_20231219_220007_67.png",
-        "group": "Lifestyle",
-        "description": "Disfruta de carreras legendarias, la historia del automovilismo, superdeportivos espectaculares, motos, acci\u00f3n impresionante y mucho m\u00e1s."
     },
     {
         "id": "distrotv-cctv-4",
@@ -648,15 +603,6 @@
         "description": "Saga Music is a 24/7 channel dedicated to serving Punjabi music content globally, showcasing a diverse array of genres including Folk, Pop, Sufi, Hip Hop, and Rap."
     },
     {
-        "id": "distrotv-smurf-tv",
-        "raw_id": "smurf-tv",
-        "name": "Smurf TV",
-        "stream_url": "https://api-ott-imps-imps.ottera.tv/loggingmediaurlpassthrough/a.m3u8",
-        "logo": "https://a.jsrdn.com/hls/22882/smurf-tv/logo_20240322_194411_70.png",
-        "group": "Entertainment",
-        "description": "Welcome to SMURF TV, the first and only channel 100% dedicated to the Smurfs. Discover or rediscover your favorite episodes with your iconic little blue friends."
-    },
-    {
         "id": "distrotv-dronetv",
         "raw_id": "dronetv",
         "name": "DroneTV",
@@ -702,15 +648,6 @@
         "description": "The Cowboy+ Sports is the official network of ProRodeo and the first 24-hour television network dedicated to live coverage of ProRodeo, Western Sports, and Western lifestyle."
     },
     {
-        "id": "distrotv-news-nation",
-        "raw_id": "news-nation",
-        "name": "News Nation",
-        "stream_url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/news-nation/master_nnna_distrotv.m3u8",
-        "logo": "https://a.jsrdn.com/hls/23184/news-nation/logo_20240807_231558_70.png",
-        "group": "News",
-        "description": "India\u2019s most trusted Hindi\u00a0News channel."
-    },
-    {
         "id": "distrotv-punjabi-hits",
         "raw_id": "punjabi-hits",
         "name": "Punjabi Hits",
@@ -720,15 +657,6 @@
         "description": "Har Punjabi Hit Hai"
     },
     {
-        "id": "distrotv-cna-originals",
-        "raw_id": "cna-originals",
-        "name": "CNA Originals",
-        "stream_url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/cna-originals/playlist.m3u8",
-        "logo": "https://a.jsrdn.com/hls/23200/cna-originals/logo_20250731_183340_70.png",
-        "group": "News",
-        "description": "CNA Originals is an award-winning English language news and documentary channel, providing viewers a unique perspective into Asia.\u00a0 The channel\u2019s programming is underscored by the tagline \u2018Understand Asia'. Viewers can watch original documentaries spanning social, political, cultural, and investigative genres. Two weekday flagship news bulletins; 'Asia Tonight' and 'East Asia Tonight' brings viewers up to date on the latest developments in the region."
-    },
-    {
         "id": "distrotv-ghost-dimension",
         "raw_id": "ghost-dimension",
         "name": "Ghost Dimension",
@@ -736,15 +664,6 @@
         "logo": "https://a.jsrdn.com/hls/23195/ghost-dimension/logo_20241023_002738_68.png",
         "group": "Documentary",
         "description": "Follow Ghost Dimension as they explore the world's most haunted locations, on a quest to seek out paranormal activity."
-    },
-    {
-        "id": "distrotv-nolly-africa-hd-gb",
-        "raw_id": "nolly-africa-hd-gb",
-        "name": "Nolly Africa HD",
-        "stream_url": "https://amg02784-amg02784c1-distrotv-us-3394.playouts.now.amagi.tv/playlist/amg02784-nollyafricafast-nollyafricahd-distrotvus/playlist.m3u8",
-        "logo": "https://a.jsrdn.com/hls/23201/nolly-africa-hd-gb/logo_20241024_173516_68.png",
-        "group": "Entertainment",
-        "description": "Nolly Africa HD is a 24-hour premium Nollywood channel, showing carefully curated English language Nollywood movies, series, talk shows, reality productions and all things Nollywood."
     },
     {
         "id": "distrotv-tabbar-hits",
@@ -918,78 +837,6 @@
         "description": "Join host and skull artist Jana Waller Bair as she takes viewers on hunting and fishing adventures across the globe, featuring breathtaking scenery and incredible wildlife."
     },
     {
-        "id": "distrotv-cinepast",
-        "raw_id": "cinepast",
-        "name": "CinePast",
-        "stream_url": "https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/JW6DDHFNN2OK5AXRIPYE/hls3/now,-1m/m.m3u8",
-        "logo": "https://a.jsrdn.com/hls/23195/cinepast/logo_20250102_204101_70.png",
-        "group": "Entertainment",
-        "description": "Takes you back to Hollywood's roots and more Featuring cinema superstars like Cary Grant, Elizabeth Taylor, Fred Astaire, Ginger Rogers, Humphrey Bogart, Hedy Lamarr,  John Wayne, Raquel Welch, Frank Sinatra, Ava Gardner, Vincent Price, Jayne Mansfield and many more and a never ending list Hollywood A listers. The Hollywood film channel delivers 100's of hours of breathtaking HD programming packed with the most well known stars of Hollywood reaching across every genre from A to Z."
-    },
-    {
-        "id": "distrotv-cowboy-classics",
-        "raw_id": "cowboy-classics",
-        "name": "Cowboy Classics",
-        "stream_url": "https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/QLP91NA9J4KHFS0Q08LB/hls3/now,-1m/m.m3u8",
-        "logo": "https://a.jsrdn.com/hls/23195/cowboy-classics/logo_20250102_212830_70.png",
-        "group": "Entertainment",
-        "description": "Brings you the Best of the West and more. The Classic Western Film Channel promises to brings you the Superstar's of the west like John Wayne, Roy Rogers , Gene Autry, Gabby Hayes and the rest of the root-in tootin cowboys of the west. The channel offers hundreds of Hours of nonstop western movies in heart pounding HD in color and Black and White."
-    },
-    {
-        "id": "distrotv-history-film-channel",
-        "raw_id": "history-film-channel",
-        "name": "History Film Channel",
-        "stream_url": "https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/0NPOY54L3YURIZHAY396/hls3/now,-1m/m.m3u8",
-        "logo": "https://a.jsrdn.com/hls/23195/history-film-channel/logo_20250102_214249_70.png",
-        "group": "Education",
-        "description": "History Film Channel - History repeats itself over and over again. We have been sifting through the archives to bring you a vast amount of historic rare unseen films and documentaries and shorts that will spark anyone\u2019s interest, the past collides with the present right here."
-    },
-    {
-        "id": "distrotv-hollywood-classic-movies",
-        "raw_id": "hollywood-classic-movies",
-        "name": "Hollywood Classic Movies",
-        "stream_url": "https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/91CAL7N2DJN9J22UJVE1/hls3/now,-1m/m.m3u8",
-        "logo": "https://a.jsrdn.com/hls/23195/hollywood-classic-movies/logo_20250102_214636_70.png",
-        "group": "Entertainment",
-        "description": "Hollywood Classic Movies - Has all the hits and more, a deep vault of epic classics movies with all the stars you know and love. From yesteryear and beyond the stars from Hollywood Boulevard to the great white way. The magic happens here at the Hollywood Classic Movies channel."
-    },
-    {
-        "id": "distrotv-kung-fu-movies",
-        "raw_id": "kung-fu-movies",
-        "name": "Kung Fu Movies",
-        "stream_url": "https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/FS63B7JS4WE77IAF6J1J/hls3/now,-1m/m.m3u8",
-        "logo": "https://a.jsrdn.com/hls/23195/kung-fu-movies/logo_20250102_215727_70.png",
-        "group": "Entertainment",
-        "description": "Kung Fu Movies - Addresses the classic fight films along with the stories we have grown to love. Packed with all the major stars with all the right moves. Come and crack open your fortune cookie and find out the answer to Classic question is my kung fu is better than your kung fu\u2026 The answer lies here."
-    },
-    {
-        "id": "distrotv-the-family-tv-channel",
-        "raw_id": "the-family-tv-channel",
-        "name": "The Family TV Channel",
-        "stream_url": "https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/94N3POFVM3G76E3IZ2WY/hls3/now,-1m/m.m3u8",
-        "logo": "https://a.jsrdn.com/hls/23195/the-family-tv-channel/logo_20250102_220756_70.png",
-        "group": "Entertainment",
-        "description": "The Family TV Channel brings you home and keeps you there with the ones you love. It\u2019s a destination for the entire family made to bring comfort content to your home. Easy going and fun sit back and relax with your family and go back in time and rediscover the classics together."
-    },
-    {
-        "id": "distrotv-the-spanish-family-channel",
-        "raw_id": "the-spanish-family-channel",
-        "name": "The Spanish Family Channel",
-        "stream_url": "https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/5ZVSPT4VKTGB7IPEEXY3/hls3/now,-1m/m.m3u8",
-        "logo": "https://a.jsrdn.com/hls/23195/the-spanish-family-channel/logo_20250102_221411_70.png",
-        "group": "Entertainment",
-        "description": "The Spanish Family Channel es un lugar maravilloso para pasar tiempo con la familia, lleno de diversi\u00f3n para todos los miembros de la familia. Te ofrecemos el raro momento familiar que es dif\u00edcil de encontrar. En cualquier momento y en cualquier lugar, t\u00fa y tu familia pueden disfrutar de programas de televisi\u00f3n cl\u00e1sicos, re\u00edrse de dibujos animados divertidos y mirar una pel\u00edcula \u00e9pica repleta de estrellas. The Spanish Family Channel - Is a wonderful place to spend time with the Family, packed with fun for all family members. We offer you the rare family time that's hard to find. Any time any place you and the family can enjoy Classic TV shows laugh at funny cartoons and watch a star studded epic movie."
-    },
-    {
-        "id": "distrotv-toonovation",
-        "raw_id": "toonovation",
-        "name": "ToonOvation",
-        "stream_url": "https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/M43FCP9IGELUIOH4IAVQ/hls3/now,-1m/m.m3u8",
-        "logo": "https://a.jsrdn.com/hls/23195/toonovation/logo_20250102_222125_70.png",
-        "group": "Entertainment",
-        "description": "Take you back to your childhood, you will relive your youth with all of your favorite cartoons you know and love. Classics like Superman, Betty Boop , Clutch Cargo and friends , Popeye , Gumby.  The fully restored Max Fleischer Color Classics, The well known Noveltoons,  8th Man , The fantastic"
-    },
-    {
         "id": "distrotv-viajar-tv",
         "raw_id": "viajar-tv",
         "name": "Viajar TV",
@@ -1042,6 +889,33 @@
         "logo": "https://a.jsrdn.com/hls/23195/nigbati-tv/logo_20250109_233418_70.png",
         "group": "Entertainment",
         "description": "Nigbati TV is a twenty-four hour entertainment channel that propagates the culture, tradition and language of the Yoruba people."
+    },
+    {
+        "id": "distrotv-hi-drama",
+        "raw_id": "hi-drama",
+        "name": "hi Drama!",
+        "stream_url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/hi-drama/distro-cgtn-hidrama.m3u8",
+        "logo": "https://a.jsrdn.com/hls/23205/hi-drama/logo_20250127_184605_68.png",
+        "group": "Entertainment",
+        "description": "hi Drama! brings together popular Chinese TV dramas, including classic historical dramas, urban romances, political intrigue, and suspenseful thrillers. It aims to provide a rich and diverse viewing experience for audiences of all ages."
+    },
+    {
+        "id": "distrotv-hi-life",
+        "raw_id": "hi-life",
+        "name": "hi Life!",
+        "stream_url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/hi-life/distro-cgtn-hilife.m3u8",
+        "logo": "https://a.jsrdn.com/hls/23205/hi-life/logo_20250127_190513_68.png",
+        "group": "Documentary",
+        "description": "hi Life! features documentaries with strong Chinese characteristics and grand gala programs, showcasing China's cultural landscapes, historical heritage, stunning scenery, and delicious cuisine. It aims to help overseas audiences discover and understand\u00a0China."
+    },
+    {
+        "id": "distrotv-hi-vida",
+        "raw_id": "hi-vida",
+        "name": "hi Vida!",
+        "stream_url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/hi-vida/distro-cgtn-hivida.m3u8",
+        "logo": "https://a.jsrdn.com/hls/23205/hi-vida/logo_20250127_192050_68.png",
+        "group": "Entertainment",
+        "description": "This channel offers the ultimate experience with Spanish versions of beloved Chinese classic TV programs. Its carefully curated selection highlights rich storytelling and deep cultural themes, making it accessible and enjoyable for Spanish-speaking audiences."
     },
     {
         "id": "distrotv-living-india-news",
