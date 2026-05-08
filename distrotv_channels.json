@@ -423,15 +423,6 @@
         "description": "JOURNY is the only channel at the intersection of travel, art, and culture! Watch curated content focused on immersive experiences and unique storytelling."
     },
     {
-        "id": "distrotv-wion-world-is-one-news",
-        "raw_id": "wion-world-is-one-news",
-        "name": "WION World is One News",
-        "stream_url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/wion-world-is-one-news/index.m3u8",
-        "logo": "https://a.jsrdn.com/hls/22975/wion-world-is-one-news/logo_20231219_224158_68.png",
-        "group": "News",
-        "description": "WION (World is One News) is one of the fastest growing News channels in the world. WION a multinational English news channel examines global issues with in-depth analysis. It is a 24x7 News Network with presence is 80 countries and growing. WION is headquartered in New Delhi, India."
-    },
-    {
         "id": "distrotv-ace-tv",
         "raw_id": "ace-tv",
         "name": "ACE TV",
@@ -475,15 +466,6 @@
         "logo": "https://a.jsrdn.com/hls/23001/true-history/logo_20231219_223655_68.png",
         "group": "Education",
         "description": "True History introduces you to the moments, places, and people that have shaped modern life with the world\u2019s best and most dynamic professors as the stars of the show."
-    },
-    {
-        "id": "distrotv-afrolandtv",
-        "raw_id": "afrolandtv",
-        "name": "AfroLandTV",
-        "stream_url": "https://api-ott.afrolandtv.com/loggingmediaurlpassthrough/a.m3u8",
-        "logo": "https://a.jsrdn.com/hls/23000/afrolandtv/logo_20231219_184044_45.png",
-        "group": "Entertainment",
-        "description": "Watch hundreds of free African movies, Nollywood, and TV shows from Africa and its diaspora!"
     },
     {
         "id": "distrotv-hare-krsna",
@@ -585,15 +567,6 @@
         "description": "El canal gratuito de deportes en vivo, noticias, an\u00e1lisis y destacados, 24 horas del d\u00eda, 7 d\u00edas de la semana."
     },
     {
-        "id": "distrotv-pitaara-tv",
-        "raw_id": "pitaara-tv",
-        "name": "Pitaara TV",
-        "stream_url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/pitaara-tv/playlist.m3u8",
-        "logo": "https://a.jsrdn.com/hls/23049/pitaara-tv/logo_20231219_220959_63.png",
-        "group": "Entertainment",
-        "description": "World's first Punjabi Movie Channel. Enjoy 24x7 comedy, romance and action packed Punjabi movies on Pitaara TV! Pitaara also brings out the latest of the updates from the Punjabi music and film industry with exclusive interviews with celebrities and a lot more!"
-    },
-    {
         "id": "distrotv-watchit-kid",
         "raw_id": "watchit-kid",
         "name": "Watchit Kid!",
@@ -610,15 +583,6 @@
         "logo": "https://a.jsrdn.com/hls/23055/fuel-tv/logo_20231219_202037_68.png",
         "group": "Sports",
         "description": "FUEL TV is the only channel dedicated 24/7 to the core action sports of Skateboarding, Surfing, BMX, Snow, Mountain Bike, Wakeboard and all the lifestyle that surrounds them, where Music, Art and Fashion play a decisive role."
-    },
-    {
-        "id": "distrotv-nolly-africa-hd",
-        "raw_id": "nolly-africa-hd",
-        "name": "Nolly Africa HD",
-        "stream_url": "https://amg02784-amg02784c1-distrotv-latam-5650.playouts.now.amagi.tv/playlist/amg02784-nollyafricafast-nollyafricahd-distrotvlatam/playlist.m3u8",
-        "logo": "https://a.jsrdn.com/hls/23057/nolly-africa-hd/logo_20231219_220408_68.png",
-        "group": "Entertainment",
-        "description": "Nolly Africa HD is a 24-hour premium Nollywood channel, showing carefully curated English language Nollywood movies, series, talk shows, reality productions and all things Nollywood."
     },
     {
         "id": "distrotv-gusto-tv",
@@ -682,15 +646,6 @@
         "logo": "https://a.jsrdn.com/hls/23065/estrella-games/logo_20231219_201220_62.png",
         "group": "Entertainment",
         "description": "Estrella\u00a0Games\u00a0es\u00a0el\u00a0primer\u00a0canal\u00a0de\u00a0concursos\u00a0en\u00a0espa\u00f1ol\u00a024/7, que\u00a0presenta\u00a0miles de\u00a0t\u00edtulos\u00a0populares,\u00a0originales,\u00a0y de\u00a0competencia\u00a0como\u00a0Cien\u00a0Latinos\u00a0Dijeron,\u00a0Jugando\u00a0con\u00a0Platanito\u00a0y\u00a0Retofamosos The first-ever 24/7 Spanish-language game show channel\u00a0. Estrella Games feature thousands of popular original, classic and competition titles like Jugando con Palatino,\u00a0 Cien Latinos Dijeron, La Mascara del Amor, Retofamosos and more."
-    },
-    {
-        "id": "distrotv-balle-balle",
-        "raw_id": "balle-balle",
-        "name": "Balle Balle",
-        "stream_url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/balle-balle/index.m3u8",
-        "logo": "https://a.jsrdn.com/hls/23060/balle-balle/logo_20231219_184445_68.png",
-        "group": "Music",
-        "description": "Balle Balle the Punjabi Music Channel is the Exclusive Prime aspect of the Punjabi Entertainment Industry. You get the wide range of Latest Punjabi Songs, Bollywood Songs,\u00a0 Entertainment Shows, Blogs filled with creativity and many more which will leave you spellbound."
     },
     {
         "id": "distrotv-trace-latina",
@@ -972,24 +927,6 @@
         "description": "Bollywood\u00a0Masala your\u00a0 perfect stop for everything\u00a0Bollywood. Get the latest updates on who\u2019s who of the industry. From Behind the scenes to Box Office Reviews to Celebrity Interviews to Film Announcements to Latest Celebrity Gossip, we bare it all. Get all the Deets on new entrants in\u00a0Bollywood, Exclusive Bites, Exclusive Buzz on Movies and all the action. Need more? we give you all the latest Celebrity Romance, Catfights, Scandals and Rumours."
     },
     {
-        "id": "distrotv-yrf-music",
-        "raw_id": "yrf-music",
-        "name": "YRF Music",
-        "stream_url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/yrf-music/master.m3u8",
-        "logo": "https://a.jsrdn.com/hls/23146/yrf-music/logo_20240322_175611_70.png",
-        "group": "Music",
-        "description": "A round-the-clock channel featuring programs that are a bespoke mix of music and entertainment"
-    },
-    {
-        "id": "distrotv-saga-music",
-        "raw_id": "saga-music",
-        "name": "Saga Music",
-        "stream_url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/saga-music/master.m3u8",
-        "logo": "https://a.jsrdn.com/hls/23146/saga-music/logo_20240322_183949_68.png",
-        "group": "Music",
-        "description": "Saga Music is a 24/7 channel dedicated to serving Punjabi music content globally, showcasing a diverse array of genres including Folk, Pop, Sufi, Hip Hop, and Rap."
-    },
-    {
         "id": "distrotv-pitufo-tv",
         "raw_id": "pitufo-tv",
         "name": "Pitufo TV",
@@ -1026,24 +963,6 @@
         "description": "TRACE UK brings viewers the very best of national and international artists, playing the hottest hip-hop, grime, afrobeats, rap and chart topping music videos dominating the UK and Global charts right now."
     },
     {
-        "id": "distrotv-tidpix",
-        "raw_id": "tidpix",
-        "name": "TidPix-Authentically African",
-        "stream_url": "https://api-ott.tidpix.com/loggingmediaurlpassthrough/a.m3u8",
-        "logo": "https://a.jsrdn.com/hls/23178/tidpix/logo_20240627_212727_70.png",
-        "group": "Entertainment",
-        "description": "TIDPIX is your destination for entertaining African movies and series from the continent's most interesting filmmakers, sharing the most AUTHENTICALLY AFRICAN entertaining stories FROM AFRICA TO THE WORLD."
-    },
-    {
-        "id": "distrotv-green-chillies-tv",
-        "raw_id": "green-chillies-tv",
-        "name": "Green Chillies TV- Zindagi ka Tadka!",
-        "stream_url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/green-chillies-tv/playlist.m3u8",
-        "logo": "https://a.jsrdn.com/hls/23179/green-chillies-tv/logo_20240627_214400_70.png",
-        "group": "Entertainment",
-        "description": "Welcome to Green Chillies, your ultimate OTT entertainment destination! Green Chillies offers a diverse array of content designed to tantalize your senses and ignite your imagination. From gripping dramas to heartwarming romances, thought-provoking documentaries to side-splitting comedies, Green Chillies has something to satisfy every craving. At Green Chillies, inclusivity and diversity are at the forefront of everything we do. We pride ourselves on celebrating the richness of human experiences, ensuring that every viewer feels seen, heard, and represented. Join our vibrant community, where individuals from all walks of life come together to share in the joy of great storytelling and engaging entertainment."
-    },
-    {
         "id": "distrotv-cowboy-plus-sports",
         "raw_id": "cowboy-plus-sports",
         "name": "Cowboy+ Sports",
@@ -1051,33 +970,6 @@
         "logo": "https://a.jsrdn.com/hls/23180/cowboy-plus-sports/logo_20260316_062953_68.png",
         "group": "Sports",
         "description": "The Cowboy+ Sports is the official network of ProRodeo and the first 24-hour television network dedicated to live coverage of ProRodeo, Western Sports, and Western lifestyle."
-    },
-    {
-        "id": "distrotv-news-nation",
-        "raw_id": "news-nation",
-        "name": "News Nation",
-        "stream_url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/news-nation/master_nnna_distrotv.m3u8",
-        "logo": "https://a.jsrdn.com/hls/23184/news-nation/logo_20240807_231558_70.png",
-        "group": "News",
-        "description": "India\u2019s most trusted Hindi\u00a0News channel."
-    },
-    {
-        "id": "distrotv-willow-sports",
-        "raw_id": "willow-sports",
-        "name": "Willow Sports",
-        "stream_url": "https://amg01269-amg01269c1-distrotv-us-5379.playouts.now.amagi.tv/playlist/amg01269-willowtvfast-willowplus-distrotvus/playlist.m3u8",
-        "logo": "https://a.jsrdn.com/hls/23197/willow-sports/logo_20241003_234953_68.png",
-        "group": "Sports",
-        "description": "Willow Sports is the free home for cricket in North America. The best of live and on-demand action from around the world is available, from ICC World Cups to the IPL. Also, other action packed live sports that will have you on the edge of your seat."
-    },
-    {
-        "id": "distrotv-punjabi-hits",
-        "raw_id": "punjabi-hits",
-        "name": "Punjabi Hits",
-        "stream_url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/punjabi-hits/index.m3u8",
-        "logo": "https://a.jsrdn.com/hls/23196/punjabi-hits/logo_20241010_204324_70.png",
-        "group": "Music",
-        "description": "Har Punjabi Hit Hai"
     },
     {
         "id": "distrotv-cna-originals",
@@ -1096,15 +988,6 @@
         "logo": "https://a.jsrdn.com/hls/23195/ghost-dimension/logo_20241023_002738_68.png",
         "group": "Documentary",
         "description": "Follow Ghost Dimension as they explore the world's most haunted locations, on a quest to seek out paranormal activity."
-    },
-    {
-        "id": "distrotv-tabbar-hits",
-        "raw_id": "tabbar-hits",
-        "name": "Tabbar Hits",
-        "stream_url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/tabbar-hits/index.m3u8",
-        "logo": "https://a.jsrdn.com/hls/23196/tabbar-hits/logo_20241119_184505_70.png",
-        "group": "Entertainment",
-        "description": "Welcome to\u00a0Tabbar Hits: Your Punjabi Movies & Entertainment Channel! Join us in celebrating the richness of Punjabi culture and entertainment! From blockbuster films to engaging shows, cultural gems, and exciting updates, we have something for everyone. Stay tuned for non-stop entertainment that keeps you connected to your roots."
     },
     {
         "id": "distrotv-comercio-tv",
@@ -1431,15 +1314,6 @@
         "description": "This channel offers the ultimate experience with Spanish versions of beloved Chinese classic TV programs. Its carefully curated selection highlights rich storytelling and deep cultural themes, making it accessible and enjoyable for Spanish-speaking audiences."
     },
     {
-        "id": "distrotv-living-india-news",
-        "raw_id": "living-india-news",
-        "name": "Living India News",
-        "stream_url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/living-india-news/index.m3u8",
-        "logo": "https://a.jsrdn.com/hls/23196/living-india-news/logo_20250205_001641_70.png",
-        "group": "News",
-        "description": "Living India News is a popular channel that offers a wide range of news coverage, including Punjab, national, and international news. What sets us apart is our engaging debates on contemporary topics and special series shows that are both informative and interesting. News on specific topics, we've got you covered. From business and markets to technology and sports, Living India News provides in-depth coverage of current events. Our debates and discussions feature expert analysis and diverse perspectives, making them a great resource for staying informed."
-    },
-    {
         "id": "distrotv-urban-action-channel",
         "raw_id": "urban-action-channel",
         "name": "Urban Action Channel",
@@ -1636,15 +1510,6 @@
         "logo": "https://a.jsrdn.com/hls/23064/mi-miedo-canal/logo_20250617_215415_70.png",
         "group": "Entertainment",
         "description": "Aqu\u00ed encontraras las mejores pel\u00edculas de terror, y ciencia ficci\u00f3n de M\u00e9xico y el mundo hispano hablante, el mejor cine de terror de cada pa\u00eds"
-    },
-    {
-        "id": "distrotv-india-daily-24x7",
-        "raw_id": "india-daily-24x7",
-        "name": "India Daily 24x7",
-        "stream_url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/india-daily-24x7/index.m3u8",
-        "logo": "https://a.jsrdn.com/hls/23225/india-daily-24x7/logo_20250618_171159_70.png",
-        "group": "News",
-        "description": "The Nation\u2019s highly anticipated National Hindi News Channel, \u201cIndia Daily\u201d as launched on 3rd July 2023. The channel,  envisioned as a \u2018disruptor media brand\u2019 with its differentiated  content strategy of shorter news wheels along with pan India  presence. \u201cIndia Daily\u201d aims to disrupt the current news  environment with credible and accurate news. The channel has  introduced a differentiated content strategy of News content and  dedicated regular content. Launched with the paramount ethos of  journalism , the channel is in  relentless pursuit of the ultimate truth showcasing utmost  courage and dedication."
     },
     {
         "id": "distrotv-elevation-church-network",
