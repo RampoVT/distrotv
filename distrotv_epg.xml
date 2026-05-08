@@ -196,21 +196,9 @@
     <display-name>Real America's Voice</display-name>
     <icon src="https://a.jsrdn.com/hls/22995/real-americas-voice/logo_20231219_221226_64.png"/>
   </channel>
-  <channel id="distrotv-garv-punjab-gurbani">
-    <display-name>Garv Punjab Gurbani</display-name>
-    <icon src="https://a.jsrdn.com/hls/22994/garv-punjab-gurbani/logo_20231219_202149_65.png"/>
-  </channel>
-  <channel id="distrotv-swar-shree">
-    <display-name>Swar Shree</display-name>
-    <icon src="https://a.jsrdn.com/hls/22994/swar-shree/logo_20231219_222755_45.png"/>
-  </channel>
   <channel id="distrotv-true-history">
     <display-name>True History</display-name>
     <icon src="https://a.jsrdn.com/hls/23001/true-history/logo_20231219_223655_68.png"/>
-  </channel>
-  <channel id="distrotv-hare-krsna">
-    <display-name>Hare Krsna</display-name>
-    <icon src="https://a.jsrdn.com/hls/22994/hare-krsna/logo_20231219_202633_68.png"/>
   </channel>
   <channel id="distrotv-swerve-combat">
     <display-name>Swerve Combat</display-name>
@@ -376,18 +364,6 @@
     <display-name>FEVA MUSIC</display-name>
     <icon src="https://a.jsrdn.com/hls/23132/feva-music/logo_20231219_201409_70.png"/>
   </channel>
-  <channel id="distrotv-lakshya-tv">
-    <display-name>Lakshya TV</display-name>
-    <icon src="https://a.jsrdn.com/hls/22994/lakshya-tv/logo_20231219_215028_60.png"/>
-  </channel>
-  <channel id="distrotv-kartavya-tv">
-    <display-name>Kartavya TV</display-name>
-    <icon src="https://a.jsrdn.com/hls/22994/kartavya-tv/logo_20231219_214633_61.png"/>
-  </channel>
-  <channel id="distrotv-kalyan-tv">
-    <display-name>Kalyan TV</display-name>
-    <icon src="https://a.jsrdn.com/hls/22994/kalyan-tv/logo_20231219_214614_65.png"/>
-  </channel>
   <channel id="distrotv-romance-channel">
     <display-name>Romance Channel</display-name>
     <icon src="https://a.jsrdn.com/hls/23077/romance-channel/logo_20231219_221635_53.png"/>
@@ -419,10 +395,6 @@
   <channel id="distrotv-dronetv">
     <display-name>DroneTV</display-name>
     <icon src="https://a.jsrdn.com/hls/23176/dronetv/logo_20240521_191242_68.png"/>
-  </channel>
-  <channel id="distrotv-global-punjab-tv">
-    <display-name>Global Punjab TV</display-name>
-    <icon src="https://a.jsrdn.com/hls/22994/global-punjab-tv/logo_20240604_233922_70.png"/>
   </channel>
   <channel id="distrotv-trace-uk">
     <display-name>TRACE UK</display-name>
@@ -471,22 +443,6 @@
   <channel id="distrotv-the-holiday-tv-channel">
     <display-name>The Holiday TV Channel</display-name>
     <icon src="https://a.jsrdn.com/hls/23195/the-holiday-tv-channel/logo_20241127_204328_70.png"/>
-  </channel>
-  <channel id="distrotv-haryana-beat">
-    <display-name>Haryana Beat</display-name>
-    <icon src="https://a.jsrdn.com/hls/22994/haryana-beat/logo_20241127_213000_70.png"/>
-  </channel>
-  <channel id="distrotv-nakshatra-digital-tv">
-    <display-name>Nakshatra Digital Tv</display-name>
-    <icon src="https://a.jsrdn.com/hls/22994/nakshatra-digital-tv/logo_20241127_213756_70.png"/>
-  </channel>
-  <channel id="distrotv-sudarshan-news">
-    <display-name>Sudarshan News</display-name>
-    <icon src="https://a.jsrdn.com/hls/22994/sudarshan-news/logo_20241127_215403_70.png"/>
-  </channel>
-  <channel id="distrotv-sundrani-tv">
-    <display-name>Sundrani Tv</display-name>
-    <icon src="https://a.jsrdn.com/hls/22994/sundrani-tv/logo_20241127_220100_70.png"/>
   </channel>
   <channel id="distrotv-colorizedtv">
     <display-name>Colorized.TV</display-name>

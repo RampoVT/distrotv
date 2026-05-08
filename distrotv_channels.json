@@ -441,24 +441,6 @@
         "description": "Delivering news programs and live-event coverage that captures the authentic voice and passion of real people all across America. Just Real News & Honest Views!"
     },
     {
-        "id": "distrotv-garv-punjab-gurbani",
-        "raw_id": "garv-punjab-gurbani",
-        "name": "Garv Punjab Gurbani",
-        "stream_url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/garv-punjab-gurbani/index.m3u8",
-        "logo": "https://a.jsrdn.com/hls/22994/garv-punjab-gurbani/logo_20231219_202149_65.png",
-        "group": "Lifestyle",
-        "description": "Gurbani Tv Channel with non-stop Kirtan, Kathas and Sikh Religious Channel."
-    },
-    {
-        "id": "distrotv-swar-shree",
-        "raw_id": "swar-shree",
-        "name": "Swar Shree",
-        "stream_url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/swar-shree/index.m3u8",
-        "logo": "https://a.jsrdn.com/hls/22994/swar-shree/logo_20231219_222755_45.png",
-        "group": "Lifestyle",
-        "description": "Gujarati TV channel based on \"Swaminarayan Sampraday\""
-    },
-    {
         "id": "distrotv-true-history",
         "raw_id": "true-history",
         "name": "True History",
@@ -466,15 +448,6 @@
         "logo": "https://a.jsrdn.com/hls/23001/true-history/logo_20231219_223655_68.png",
         "group": "Education",
         "description": "True History introduces you to the moments, places, and people that have shaped modern life with the world\u2019s best and most dynamic professors as the stars of the show."
-    },
-    {
-        "id": "distrotv-hare-krsna",
-        "raw_id": "hare-krsna",
-        "name": "Hare Krsna",
-        "stream_url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/hare-krsna/playlist.m3u8",
-        "logo": "https://a.jsrdn.com/hls/22994/hare-krsna/logo_20231219_202633_68.png",
-        "group": "Lifestyle",
-        "description": "Make your life experiences richer, graceful, harmonious and in sync with the spiritual energies of the universe. Watch stimulating, uplifting, energizing content from ancient vedic teachings of INDIA. Good for viewers of all ages and geography. Absorb your self with immersive content based around the purpose of eternal human wellbeing. Watch lifestyle management classes, motivation speeches, programs for kids, Yoga, kirtan, cooking classes, documentaries, daily live worship from various ISKCON (International Society for Krishna Consciousness) temples, etc."
     },
     {
         "id": "distrotv-swerve-combat",
@@ -846,33 +819,6 @@
         "description": "FEVA MUSIC is a vibrant and captivating music TV channel that celebrates the rich musical heritage of Africans, Blacks, and Caribbeans. It serves as a platform for showcasing the diverse and dynamic sounds that have emerged from these cultures, providing an immersive experience for music enthusiasts worldwide. From Afrobeats and Reggae to Hip-Hop and Dancehall, Soca, Amapiano and many others, FEVA MUSIC is dedicated to bringing the best of African, Black, and Caribbean music to the forefront. With a lineup that features a mix of music videos, live performances, interviews, and documentaries, FEVA MUSIC offers a comprehensive and engaging viewing experience. The channel not only highlights established and emerging artists but also explores the cultural significance and influence of African, Black, and Caribbean music on a global scale. FEVA MUSIC creates an inclusive space that celebrates the power of music to connect people across borders, while also amplifying the voices and stories of underrepresented communities. Whether you're a fan of infectious rhythms, thought-provoking lyrics, or simply looking to discover new musical talents, FEVA MUSIC is your go-to destination for an electrifying journey through the vibrant world of African, Black, and Caribbean music."
     },
     {
-        "id": "distrotv-lakshya-tv",
-        "raw_id": "lakshya-tv",
-        "name": "Lakshya TV",
-        "stream_url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/lakshya-tv/index.m3u8",
-        "logo": "https://a.jsrdn.com/hls/22994/lakshya-tv/logo_20231219_215028_60.png",
-        "group": "Lifestyle",
-        "description": "The company is engaged in Television Broadcasting and broadcast\u2019s India\u2019s leading social-spiritual-cultural television channels. Lakshya TV has been telecasting most of the major events in the spiritual world from across the India as LIVE broadcasts which have been avidly appreciated by the viewers."
-    },
-    {
-        "id": "distrotv-kartavya-tv",
-        "raw_id": "kartavya-tv",
-        "name": "Kartavya TV",
-        "stream_url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/kartavya-tv/index.m3u8",
-        "logo": "https://a.jsrdn.com/hls/22994/kartavya-tv/logo_20231219_214633_61.png",
-        "group": "Lifestyle",
-        "description": "The company broadcasts the top socio-spiritual-cultural television channels in India as part of its television broadcasting business. With a Gujarati channel having a strong presence. Over the years, the channel has created significant marquee properties through an impressive lineup of programs ranging from the light hearted to the supernatural & explored various genres of bhakti complimented by an exclusive mix of social events, Pravachan, Katha, Bhajan & Kirtan."
-    },
-    {
-        "id": "distrotv-kalyan-tv",
-        "raw_id": "kalyan-tv",
-        "name": "Kalyan TV",
-        "stream_url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/kalyan-tv/index.m3u8",
-        "logo": "https://a.jsrdn.com/hls/22994/kalyan-tv/logo_20231219_214614_65.png",
-        "group": "Lifestyle",
-        "description": "Kalyan TV has been broadcasting most of the major events in the spiritual world from across Gujarat, which have been enthusiastically cherished by the viewers as these have been fulfilling their spiritual needs. With a Gujarati channel having a strong presence in the community."
-    },
-    {
         "id": "distrotv-romance-channel",
         "raw_id": "romance-channel",
         "name": "Romance Channel",
@@ -943,15 +889,6 @@
         "logo": "https://a.jsrdn.com/hls/23176/dronetv/logo_20240521_191242_68.png",
         "group": "Travel",
         "description": "Explore the world from the comfort of your living room with DroneTV. \u00a0DroneTV features high quality drone video programming from all over the world, including the most sought-after travel destinations. \u00a0The channel draws from the best videos uploaded to the AirVuz drone video sharing community."
-    },
-    {
-        "id": "distrotv-global-punjab-tv",
-        "raw_id": "global-punjab-tv",
-        "name": "Global Punjab TV",
-        "stream_url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/global-punjab-tv/index.m3u8",
-        "logo": "https://a.jsrdn.com/hls/22994/global-punjab-tv/logo_20240604_233922_70.png",
-        "group": "News",
-        "description": "Global Punjab TV is a premium quality 24X7 HD Punjabi television channel with a programming focus on quality news ,current affairs , politics , religion , culture , entertainment , business ,  humour and education about Punjab and the Punjabi community worldwide. Global Punjab TV is unmatched in its presentation of live community events in USA, Canada and India, thus making it the fastest growing and most sought after Punjabi TV. The content is created by keeping in mind old and young viewers, men and women, modern and traditional, spiritual and trendy generations."
     },
     {
         "id": "distrotv-trace-uk",
@@ -1060,42 +997,6 @@
         "logo": "https://a.jsrdn.com/hls/23195/the-holiday-tv-channel/logo_20241127_204328_70.png",
         "group": "Entertainment",
         "description": "The Holiday TV Channel brings joy all year round. Offering quality family entertainment of festive films and TV Shows"
-    },
-    {
-        "id": "distrotv-haryana-beat",
-        "raw_id": "haryana-beat",
-        "name": "Haryana Beat",
-        "stream_url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/haryana-beat/index.m3u8",
-        "logo": "https://a.jsrdn.com/hls/22994/haryana-beat/logo_20241127_213000_70.png",
-        "group": "Entertainment",
-        "description": "Welcome to Haryana Beat, your hub for Haryanvi & Hindi entertainment! Enjoy top Haryanvi movies, hit songs, star interviews, and shows celebrating culture and creativity. Dive into blockbuster films, cultural gems, and non-stop entertainment that keeps you connected to your roots!"
-    },
-    {
-        "id": "distrotv-nakshatra-digital-tv",
-        "raw_id": "nakshatra-digital-tv",
-        "name": "Nakshatra Digital Tv",
-        "stream_url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/nakshatra-digital-tv/index.m3u8",
-        "logo": "https://a.jsrdn.com/hls/22994/nakshatra-digital-tv/logo_20241127_213756_70.png",
-        "group": "Entertainment",
-        "description": "Your 24x7 destination for fresh, authentic entertainment! Enjoy Bollywood, Kollywood, Sandalwood, and Tollywood movies, hit songs, star interviews, and shows celebrating culture and creativity. Stay tuned for nonstop fun, connecting you to vibrant traditions and cinematic magic!"
-    },
-    {
-        "id": "distrotv-sudarshan-news",
-        "raw_id": "sudarshan-news",
-        "name": "Sudarshan News",
-        "stream_url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/sudarshan-news/index.m3u8",
-        "logo": "https://a.jsrdn.com/hls/22994/sudarshan-news/logo_20241127_215403_70.png",
-        "group": "News",
-        "description": "Your 24x7 nationalist news channel dedicated to \"Nation First.\" Dive into fearless reporting, history, science, education, Bollywood updates, and cultural news. From live interviews to engaging shows, stay informed and connected with truth and Rashtradharma!"
-    },
-    {
-        "id": "distrotv-sundrani-tv",
-        "raw_id": "sundrani-tv",
-        "name": "Sundrani Tv",
-        "stream_url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/sundrani-tv/index.m3u8",
-        "logo": "https://a.jsrdn.com/hls/22994/sundrani-tv/logo_20241127_220100_70.png",
-        "group": "Entertainment",
-        "description": "Chhattisgarh's largest music label and movie studio! Celebrate the magic of music with hit songs, top movies, exclusive star interviews, and shows honoring culture and creativity. Join us for non-stop entertainment that connects you to the heart of Chhattisgarh!"
     },
     {
         "id": "distrotv-colorizedtv",
