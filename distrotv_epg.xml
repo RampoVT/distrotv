@@ -8,10 +8,6 @@
     <display-name>Newsmax TV</display-name>
     <icon src="https://a.jsrdn.com/hls/22819/newsmax-tv/logo_20231219_220350_38.png"/>
   </channel>
-  <channel id="distrotv-right-now-tv">
-    <display-name>Right Now Tv</display-name>
-    <icon src="https://a.jsrdn.com/hls/22863/right-now-tv/logo_20231219_221555_29.png"/>
-  </channel>
   <channel id="distrotv-oan-encore">
     <display-name>OAN Plus</display-name>
     <icon src="https://a.jsrdn.com/hls/22866/oan-encore/logo_20231219_220536_57.png"/>
@@ -96,14 +92,6 @@
     <display-name>24 Hour Free Movies</display-name>
     <icon src="https://a.jsrdn.com/hls/22907/24-hour-free-movies/logo_20231219_183702_63.png"/>
   </channel>
-  <channel id="distrotv-sqad">
-    <display-name>SKWAD</display-name>
-    <icon src="https://a.jsrdn.com/hls/22882/sqad/logo_20231219_221849_48.png"/>
-  </channel>
-  <channel id="distrotv-cooking-panda">
-    <display-name>Cooking Panda</display-name>
-    <icon src="https://a.jsrdn.com/hls/22882/cooking-panda/logo_20231219_192638_68.png"/>
-  </channel>
   <channel id="distrotv-business-rockstars">
     <display-name>Business Rockstars</display-name>
     <icon src="https://a.jsrdn.com/hls/22915/business-rockstars/logo_20231219_185120_58.png"/>
@@ -156,10 +144,6 @@
     <display-name>XFC TV</display-name>
     <icon src="https://a.jsrdn.com/hls/22915/xfc-tv/logo_20231219_224405_58.png"/>
   </channel>
-  <channel id="distrotv-nost-the-nostalgia-network">
-    <display-name>NOST - The Nostalgia Network</display-name>
-    <icon src="https://a.jsrdn.com/hls/22956/nost-the-nostalgia-network/logo_20231219_220428_70.png"/>
-  </channel>
   <channel id="distrotv-shoplc">
     <display-name>ShopLC</display-name>
     <icon src="https://a.jsrdn.com/hls/22957/shoplc/logo_20231219_221828_30.png"/>
@@ -207,10 +191,6 @@
   <channel id="distrotv-kozoom-tv">
     <display-name>KOZOOM TV</display-name>
     <icon src="https://a.jsrdn.com/hls/23064/kozoom-tv/logo_20231219_214836_63.png"/>
-  </channel>
-  <channel id="distrotv-indiebox">
-    <display-name>IndieBox</display-name>
-    <icon src="https://a.jsrdn.com/hls/23195/indiebox/logo_20241210_231749_68.png"/>
   </channel>
   <channel id="distrotv-motorvision-tv">
     <display-name>Motorvision TV</display-name>
@@ -272,177 +252,9 @@
     <display-name>Mediacorp Entertainment – Tamil</display-name>
     <icon src="https://a.jsrdn.com/hls/23077/mediacorp-entertainment-tamil/logo_20240102_190222_70.png"/>
   </channel>
-  <channel id="distrotv-pitufo-tv">
-    <display-name>Pitufo TV</display-name>
-    <icon src="https://a.jsrdn.com/hls/22882/pitufo-tv/logo_20240322_195115_70.png"/>
-  </channel>
   <channel id="distrotv-cowboy-plus-sports">
     <display-name>Cowboy+ Sports</display-name>
     <icon src="https://a.jsrdn.com/hls/23180/cowboy-plus-sports/logo_20260316_062953_68.png"/>
-  </channel>
-  <channel id="distrotv-ghost-dimension">
-    <display-name>Ghost Dimension</display-name>
-    <icon src="https://a.jsrdn.com/hls/23195/ghost-dimension/logo_20241023_002738_68.png"/>
-  </channel>
-  <channel id="distrotv-cartoon-classics">
-    <display-name>Cartoon Classics</display-name>
-    <icon src="https://a.jsrdn.com/hls/23195/cartoon-classics/logo_20241119_223053_61.png"/>
-  </channel>
-  <channel id="distrotv-comedy-classics">
-    <display-name>Comedy Classics</display-name>
-    <icon src="https://a.jsrdn.com/hls/23195/comedy-classics/logo_20241119_223830_68.png"/>
-  </channel>
-  <channel id="distrotv-sportstvplus">
-    <display-name>SportsTVPlus</display-name>
-    <icon src="https://a.jsrdn.com/hls/23195/sportstvplus/logo_20241119_225320_70.png"/>
-  </channel>
-  <channel id="distrotv-old-west-tv">
-    <display-name>Old West TV</display-name>
-    <icon src="https://a.jsrdn.com/hls/23195/old-west-tv/logo_20241119_225939_68.png"/>
-  </channel>
-  <channel id="distrotv-4acetv">
-    <display-name>4ACETV</display-name>
-    <icon src="https://a.jsrdn.com/hls/23195/4acetv/logo_20241125_195233_70.png"/>
-  </channel>
-  <channel id="distrotv-4acetv-classic-hits">
-    <display-name>4ACETV CLASSIC HITS</display-name>
-    <icon src="https://a.jsrdn.com/hls/23195/4acetv-classic-hits/logo_20241125_202430_70.png"/>
-  </channel>
-  <channel id="distrotv-colorizedtv">
-    <display-name>Colorized.TV</display-name>
-    <icon src="https://a.jsrdn.com/hls/23195/colorizedtv/logo_20241210_234659_68.png"/>
-  </channel>
-  <channel id="distrotv-momcave">
-    <display-name>MomCave</display-name>
-    <icon src="https://a.jsrdn.com/hls/23195/momcave/logo_20241211_000235_68.png"/>
-  </channel>
-  <channel id="distrotv-hip-hop-tv">
-    <display-name>HIP HOP TV</display-name>
-    <icon src="https://a.jsrdn.com/hls/23195/hip-hop-tv/logo_20241211_000952_70.png"/>
-  </channel>
-  <channel id="distrotv-fitness-rewind-by-collage-video">
-    <display-name>Fitness Rewind by Collage Video</display-name>
-    <icon src="https://a.jsrdn.com/hls/23195/fitness-rewind-by-collage-video/logo_20241211_002132_68.png"/>
-  </channel>
-  <channel id="distrotv-amusic-channel">
-    <display-name>AMusic Channel</display-name>
-    <icon src="https://a.jsrdn.com/hls/23195/amusic-channel/logo_20241211_003016_70.png"/>
-  </channel>
-  <channel id="distrotv-skull-bound-tv">
-    <display-name>Skull Bound TV</display-name>
-    <icon src="https://a.jsrdn.com/hls/23195/skull-bound-tv/logo_20250102_202956_70.png"/>
-  </channel>
-  <channel id="distrotv-cinepast">
-    <display-name>CinePast</display-name>
-    <icon src="https://a.jsrdn.com/hls/23195/cinepast/logo_20250102_204101_70.png"/>
-  </channel>
-  <channel id="distrotv-cowboy-classics">
-    <display-name>Cowboy Classics</display-name>
-    <icon src="https://a.jsrdn.com/hls/23195/cowboy-classics/logo_20250102_212830_70.png"/>
-  </channel>
-  <channel id="distrotv-hollywood-classic-movies">
-    <display-name>Hollywood Classic Movies</display-name>
-    <icon src="https://a.jsrdn.com/hls/23195/hollywood-classic-movies/logo_20250102_214636_70.png"/>
-  </channel>
-  <channel id="distrotv-kung-fu-movies">
-    <display-name>Kung Fu Movies</display-name>
-    <icon src="https://a.jsrdn.com/hls/23195/kung-fu-movies/logo_20250102_215727_70.png"/>
-  </channel>
-  <channel id="distrotv-the-family-tv-channel">
-    <display-name>The Family TV Channel</display-name>
-    <icon src="https://a.jsrdn.com/hls/23195/the-family-tv-channel/logo_20250102_220756_70.png"/>
-  </channel>
-  <channel id="distrotv-toonovation">
-    <display-name>ToonOvation</display-name>
-    <icon src="https://a.jsrdn.com/hls/23195/toonovation/logo_20250102_222125_70.png"/>
-  </channel>
-  <channel id="distrotv-viajar-tv">
-    <display-name>Viajar TV</display-name>
-    <icon src="https://a.jsrdn.com/hls/23195/viajar-tv/logo_20250102_223334_36.png"/>
-  </channel>
-  <channel id="distrotv-box-cinema">
-    <display-name>Box Cinema</display-name>
-    <icon src="https://a.jsrdn.com/hls/23195/box-cinema/logo_20250102_225527_70.png"/>
-  </channel>
-  <channel id="distrotv-box-gamers">
-    <display-name>Box Gamers</display-name>
-    <icon src="https://a.jsrdn.com/hls/23195/box-gamers/logo_20250102_230327_70.png"/>
-  </channel>
-  <channel id="distrotv-hits-mexicanos">
-    <display-name>HITS MEXICANOS</display-name>
-    <icon src="https://a.jsrdn.com/hls/23195/hits-mexicanos/logo_20250109_231027_70.png"/>
-  </channel>
-  <channel id="distrotv-rockola-television">
-    <display-name>Rockola Television</display-name>
-    <icon src="https://a.jsrdn.com/hls/23195/rockola-television/logo_20250109_231904_70.png"/>
-  </channel>
-  <channel id="distrotv-nigbati-tv">
-    <display-name>Nigbati TV</display-name>
-    <icon src="https://a.jsrdn.com/hls/23195/nigbati-tv/logo_20250109_233418_70.png"/>
-  </channel>
-  <channel id="distrotv-hi-drama">
-    <display-name>hi Drama!</display-name>
-    <icon src="https://a.jsrdn.com/hls/23205/hi-drama/logo_20250127_184605_68.png"/>
-  </channel>
-  <channel id="distrotv-hi-life">
-    <display-name>hi Life!</display-name>
-    <icon src="https://a.jsrdn.com/hls/23205/hi-life/logo_20250127_190513_68.png"/>
-  </channel>
-  <channel id="distrotv-hi-vida">
-    <display-name>hi Vida!</display-name>
-    <icon src="https://a.jsrdn.com/hls/23205/hi-vida/logo_20250127_192050_68.png"/>
-  </channel>
-  <channel id="distrotv-urban-action-channel">
-    <display-name>Urban Action Channel</display-name>
-    <icon src="https://a.jsrdn.com/hls/23195/urban-action-channel/logo_20250205_002523_70.png"/>
-  </channel>
-  <channel id="distrotv-a-z-best-classic-tv">
-    <display-name>a-z Best Classic TV</display-name>
-    <icon src="https://a.jsrdn.com/hls/23195/a-z-best-classic-tv/logo_20250205_004115_68.png"/>
-  </channel>
-  <channel id="distrotv-a-z-classic-flix">
-    <display-name>a-z Classic Flix</display-name>
-    <icon src="https://a.jsrdn.com/hls/23195/a-z-classic-flix/logo_20250205_005636_68.png"/>
-  </channel>
-  <channel id="distrotv-a-z-western-grit">
-    <display-name>a-z Western Grit</display-name>
-    <icon src="https://a.jsrdn.com/hls/23195/a-z-western-grit/logo_20250205_010126_68.png"/>
-  </channel>
-  <channel id="distrotv-ourvinyl">
-    <display-name>OurVinyl</display-name>
-    <icon src="https://a.jsrdn.com/hls/23208/ourvinyl/logo_20250211_203651_70.png"/>
-  </channel>
-  <channel id="distrotv-my-money">
-    <display-name>My Money</display-name>
-    <icon src="https://a.jsrdn.com/hls/23208/my-money/logo_20250211_204246_70.png"/>
-  </channel>
-  <channel id="distrotv-sports-first-tv">
-    <display-name>Sports First TV</display-name>
-    <icon src="https://a.jsrdn.com/hls/23208/sports-first-tv/logo_20250211_205731_70.png"/>
-  </channel>
-  <channel id="distrotv-aci-on-the-go">
-    <display-name>ACI On The Go</display-name>
-    <icon src="https://a.jsrdn.com/hls/23195/aci-on-the-go/logo_20250220_231008_70.png"/>
-  </channel>
-  <channel id="distrotv-nomadslow-tv">
-    <display-name>NOMADslow tv</display-name>
-    <icon src="https://a.jsrdn.com/hls/23195/nomadslow-tv/logo_20250225_225158_70.png"/>
-  </channel>
-  <channel id="distrotv-cigar-tv">
-    <display-name>Cigar TV</display-name>
-    <icon src="https://a.jsrdn.com/hls/23212/cigar-tv/logo_20250318_223344_70.png"/>
-  </channel>
-  <channel id="distrotv-wild-nature">
-    <display-name>Wild Nature</display-name>
-    <icon src="https://a.jsrdn.com/hls/23208/wild-nature/logo_20250401_214215_70.png"/>
-  </channel>
-  <channel id="distrotv-wild-tv">
-    <display-name>Wild TV</display-name>
-    <icon src="https://a.jsrdn.com/hls/23208/wild-tv/logo_20250401_215043_70.png"/>
-  </channel>
-  <channel id="distrotv-chicas-guapas-tv">
-    <display-name>Chicas Guapas TV</display-name>
-    <icon src="https://a.jsrdn.com/hls/22882/chicas-guapas-tv/logo_20250513_211005_70.png"/>
   </channel>
   <channel id="distrotv-the-reuters-60">
     <display-name>The Reuters 60</display-name>
@@ -511,22 +323,6 @@
   <channel id="distrotv-ontv4u">
     <display-name>ONTV4U</display-name>
     <icon src="https://a.jsrdn.com/hls/23241/ontv4u/logo_20251217_202223_70.png"/>
-  </channel>
-  <channel id="distrotv-dj-central-tv">
-    <display-name>DJ Central TV</display-name>
-    <icon src="https://a.jsrdn.com/hls/23195/dj-central-tv/logo_20260120_204441_68.png"/>
-  </channel>
-  <channel id="distrotv-carbontv">
-    <display-name>CarbonTV</display-name>
-    <icon src="https://a.jsrdn.com/hls/23195/carbontv/logo_20260203_222257_70.png"/>
-  </channel>
-  <channel id="distrotv-cg-central">
-    <display-name>CG Central</display-name>
-    <icon src="https://a.jsrdn.com/hls/23195/cg-central/logo_20260203_223052_70.png"/>
-  </channel>
-  <channel id="distrotv-spot-on-news">
-    <display-name>spot on news</display-name>
-    <icon src="https://a.jsrdn.com/hls/23195/spot-on-news/logo_20260203_223627_70.png"/>
   </channel>
   <channel id="distrotv-golf-network">
     <display-name>Golf Network</display-name>
