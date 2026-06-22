@@ -198,15 +198,6 @@
         "description": "World Poker Tour ignited the global poker boom with a unique television show based on a series of high-stakes tournaments. WPT events turned Gus Hansen into the Great Dane and Daniel Negreanu into Kid Poker, and created dozens of poker-made millionaires."
     },
     {
-        "id": "distrotv-24-hour-free-movies",
-        "raw_id": "24-hour-free-movies",
-        "name": "24 Hour Free Movies",
-        "stream_url": "https://d1b5mlajbmvkjv.cloudfront.net/v1/master/9d062541f2ff39b5c0f48b743c6411d25f62fc25/UDU-DistroTV/145.m3u8",
-        "logo": "https://a.jsrdn.com/hls/22907/24-hour-free-movies/logo_20231219_183702_63.png",
-        "group": "Entertainment",
-        "description": "24 Hour Free Movies brings you a growing collection of popular movies and TV shows from around the world. Always Free . . . Always Fun."
-    },
-    {
         "id": "distrotv-business-rockstars",
         "raw_id": "business-rockstars",
         "name": "Business Rockstars",
@@ -360,15 +351,6 @@
         "description": "True History introduces you to the moments, places, and people that have shaped modern life with the world\u2019s best and most dynamic professors as the stars of the show."
     },
     {
-        "id": "distrotv-fight-network",
-        "raw_id": "fight-network",
-        "name": "Fight Network",
-        "stream_url": "https://amg00966-amg00966c10-amgplt0081.playout.now3.amagi.tv/playlist/amg00966-amg00966c10-amgplt0081/playlist.m3u8",
-        "logo": "https://a.jsrdn.com/hls/23046/fight-network/logo_20231219_201512_66.png",
-        "group": "Sports",
-        "description": "The world\u2019s premier 24/7 combat sports linear network\u2019s digital stream dedicated to coverage of combat sports. Fight Network delivers a combination of Original Content, classic fights and compilations from around the word as well as weekly series from wrestling, boxing, MMA and more."
-    },
-    {
         "id": "distrotv-africanews",
         "raw_id": "africanews",
         "name": "Africanews",
@@ -486,15 +468,6 @@
         "description": "CGTN Espa\u00f1ol is one of CGTN\u00b4s general content channels, providing accurate\u3001timely and objective information and rich audiovisual content to the Spanish language audience 24 hours a day. It aims to promote communication and understanding between China and the world, and enhance cultural exchanges and mutual trust between China and other countries."
     },
     {
-        "id": "distrotv-defiance-media",
-        "raw_id": "defiance-media",
-        "name": "DeFiance Media",
-        "stream_url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/defiance-media/playlist.m3u8",
-        "logo": "https://a.jsrdn.com/hls/23095/defiance-media/logo_20231219_193005_68.png",
-        "group": "Finance",
-        "description": "Exclusive coverage of alternative finance, culture and technology."
-    },
-    {
         "id": "distrotv-craftsytv",
         "raw_id": "craftsytv",
         "name": "CraftsyTV",
@@ -565,15 +538,6 @@
         "logo": "https://a.jsrdn.com/hls/23077/mediacorp-entertainment-tamil/logo_20240102_190222_70.png",
         "group": "Entertainment",
         "description": "Mediacorp Entertainment is the entertainment and lifestyle channel for the entire family! This is where you will find high-quality and innovative productions where stories are told through the lens of Asia. From love, action, thriller and family dramas to keep you at the edge of your seat, to food and travel programmes that bring you on a whirlwind journey of tastes and places, there\u2019s something for everyone. Here you will also find a curated collection of Asian programmes in three languages, Chinese, English and Tamil."
-    },
-    {
-        "id": "distrotv-cowboy-plus-sports",
-        "raw_id": "cowboy-plus-sports",
-        "name": "Cowboy+ Sports",
-        "stream_url": "https://amg17292-amg17292c1-distrotv-us-4170.playouts.now.amagi.tv/playlist/amg17292-tetonridgellc-tetonridgefast-distrotvus/playlist.m3u8",
-        "logo": "https://a.jsrdn.com/hls/23180/cowboy-plus-sports/logo_20260316_062953_68.png",
-        "group": "Sports",
-        "description": "The Cowboy+ Sports is the official network of ProRodeo and the first 24-hour television network dedicated to live coverage of ProRodeo, Western Sports, and Western lifestyle."
     },
     {
         "id": "distrotv-the-reuters-60",
@@ -648,15 +612,6 @@
         "description": "Aqu\u00ed encontraras las mejores pel\u00edculas de terror, y ciencia ficci\u00f3n de M\u00e9xico y el mundo hispano hablante, el mejor cine de terror de cada pa\u00eds"
     },
     {
-        "id": "distrotv-elevation-church-network",
-        "raw_id": "elevation-church-network",
-        "name": "Elevation Church Network",
-        "stream_url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/elevation-church-network/playlist.m3u8",
-        "logo": "https://a.jsrdn.com/hls/23224/elevation-church-network/logo_20250623_165558_70.png",
-        "group": "Lifestyle",
-        "description": "Elevation Church\u2019s FAST channel streams powerful sermons from Pastor Steven Furtick and dynamic worship from Elevation Worship 24/7. No subscriptions\u2014just life-changing messages and passionate praise, anytime, anywhere. Grow in faith, find hope, and encounter God\u2019s presence through preaching and worship."
-    },
-    {
         "id": "distrotv-cgtn-global-biz",
         "raw_id": "cgtn-global-biz",
         "name": "CGTN Global Biz",
@@ -700,33 +655,6 @@
         "logo": "https://a.jsrdn.com/hls/23240/daystar-espanol/logo_20251209_232554_70.png",
         "group": "Lifestyle",
         "description": "Daystar Espa\u00f1ol transmite contenido cristiano en espa\u00f1ol, 24 horas al d\u00eda, los 7 d\u00edas de la semana. Nuestro objetivo es difundir el Evangelio de Jesucristo, ofrecer programas de fe, adoraci\u00f3n, ense\u00f1anza b\u00edblica, testimonios, m\u00fasica cristiana y contenido para familias hispanohablantes. Llegamos a millones de hogares en Estados Unidos: cubrimos m\u00e1s del 90 % de los hogares hispanos con televisi\u00f3n en EE.UU. Tambi\u00e9n transmitimos a toda Latinoam\u00e9rica, e incluso tenemos cobertura internacional en otras regiones del mundo. Daystar Espa\u00f1ol es considera una de las redes cristianas en espa\u00f1ol de mayor crecimiento mundial."
-    },
-    {
-        "id": "distrotv-rvtv",
-        "raw_id": "rvtv",
-        "name": "RVTV",
-        "stream_url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/rvtv/index.m3u8",
-        "logo": "https://a.jsrdn.com/hls/23241/rvtv/logo_20251217_201036_68.png",
-        "group": "Lifestyle",
-        "description": "RVTV is dedicated to exploring the exciting world of recreational vehicles. Offering a unique blend of informative and entertaining programming, RVTV takes viewers on a thrilling journey into the heart of the RV lifestyle."
-    },
-    {
-        "id": "distrotv-wine-watches-whiskey",
-        "raw_id": "wine-watches-whiskey",
-        "name": "Wine, Watches & Whiskey",
-        "stream_url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/wine-watches-whiskey/index.m3u8",
-        "logo": "https://a.jsrdn.com/hls/23241/wine-watches-whiskey/logo_20251217_201432_68.png",
-        "group": "Lifestyle",
-        "description": "Wine, Watches & Whiskey \u2013 the exciting new channel for viewers who enjoy finer qualities of life. Bringing viewers the best in engaging and informative content on all things wine, watches, and whiskey. W3 offers fresh perspectives from the world\u2019s trendsetters and icons; original and exclusive content; and nonstop inspiring entertainment. Tune in to experience cultivated content on TV and streaming platforms."
-    },
-    {
-        "id": "distrotv-ontv4u",
-        "raw_id": "ontv4u",
-        "name": "ONTV4U",
-        "stream_url": "https://cdn13.crtvnoc.com/ONTV4U-on-DistroTV/index.m3u8",
-        "logo": "https://a.jsrdn.com/hls/23241/ontv4u/logo_20251217_202223_70.png",
-        "group": "Lifestyle",
-        "description": "ONTV4U is committed to providing our users with the latest As Seen On TV infomercial products available in the market today."
     },
     {
         "id": "distrotv-golf-network",

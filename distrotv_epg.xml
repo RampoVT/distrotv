@@ -88,10 +88,6 @@
     <display-name>World Poker Tour</display-name>
     <icon src="https://a.jsrdn.com/hls/22893/world-poker-tour/logo_20231219_224338_70.png"/>
   </channel>
-  <channel id="distrotv-24-hour-free-movies">
-    <display-name>24 Hour Free Movies</display-name>
-    <icon src="https://a.jsrdn.com/hls/22907/24-hour-free-movies/logo_20231219_183702_63.png"/>
-  </channel>
   <channel id="distrotv-business-rockstars">
     <display-name>Business Rockstars</display-name>
     <icon src="https://a.jsrdn.com/hls/22915/business-rockstars/logo_20231219_185120_58.png"/>
@@ -160,10 +156,6 @@
     <display-name>True History</display-name>
     <icon src="https://a.jsrdn.com/hls/23001/true-history/logo_20231219_223655_68.png"/>
   </channel>
-  <channel id="distrotv-fight-network">
-    <display-name>Fight Network</display-name>
-    <icon src="https://a.jsrdn.com/hls/23046/fight-network/logo_20231219_201512_66.png"/>
-  </channel>
   <channel id="distrotv-africanews">
     <display-name>Africanews</display-name>
     <icon src="https://a.jsrdn.com/hls/22886/africanews/logo_20231218_175639_70.png"/>
@@ -216,10 +208,6 @@
     <display-name>CGTN Español</display-name>
     <icon src="https://a.jsrdn.com/hls/23094/cgtn-espanol/logo_20231219_185344_62.png"/>
   </channel>
-  <channel id="distrotv-defiance-media">
-    <display-name>DeFiance Media</display-name>
-    <icon src="https://a.jsrdn.com/hls/23095/defiance-media/logo_20231219_193005_68.png"/>
-  </channel>
   <channel id="distrotv-craftsytv">
     <display-name>CraftsyTV</display-name>
     <icon src="https://a.jsrdn.com/hls/23108/craftsytv/logo_20231219_192821_64.png"/>
@@ -251,10 +239,6 @@
   <channel id="distrotv-mediacorp-entertainment-tamil">
     <display-name>Mediacorp Entertainment – Tamil</display-name>
     <icon src="https://a.jsrdn.com/hls/23077/mediacorp-entertainment-tamil/logo_20240102_190222_70.png"/>
-  </channel>
-  <channel id="distrotv-cowboy-plus-sports">
-    <display-name>Cowboy+ Sports</display-name>
-    <icon src="https://a.jsrdn.com/hls/23180/cowboy-plus-sports/logo_20260316_062953_68.png"/>
   </channel>
   <channel id="distrotv-the-reuters-60">
     <display-name>The Reuters 60</display-name>
@@ -288,10 +272,6 @@
     <display-name>Mi Miedo Canal</display-name>
     <icon src="https://a.jsrdn.com/hls/23064/mi-miedo-canal/logo_20250617_215415_70.png"/>
   </channel>
-  <channel id="distrotv-elevation-church-network">
-    <display-name>Elevation Church Network</display-name>
-    <icon src="https://a.jsrdn.com/hls/23224/elevation-church-network/logo_20250623_165558_70.png"/>
-  </channel>
   <channel id="distrotv-cgtn-global-biz">
     <display-name>CGTN Global Biz</display-name>
     <icon src="https://a.jsrdn.com/hls/23232/cgtn-global-biz/logo_20251105_004205_68.png"/>
@@ -311,18 +291,6 @@
   <channel id="distrotv-daystar-espanol">
     <display-name>Daystar Español</display-name>
     <icon src="https://a.jsrdn.com/hls/23240/daystar-espanol/logo_20251209_232554_70.png"/>
-  </channel>
-  <channel id="distrotv-rvtv">
-    <display-name>RVTV</display-name>
-    <icon src="https://a.jsrdn.com/hls/23241/rvtv/logo_20251217_201036_68.png"/>
-  </channel>
-  <channel id="distrotv-wine-watches-whiskey">
-    <display-name>Wine, Watches &amp; Whiskey</display-name>
-    <icon src="https://a.jsrdn.com/hls/23241/wine-watches-whiskey/logo_20251217_201432_68.png"/>
-  </channel>
-  <channel id="distrotv-ontv4u">
-    <display-name>ONTV4U</display-name>
-    <icon src="https://a.jsrdn.com/hls/23241/ontv4u/logo_20251217_202223_70.png"/>
   </channel>
   <channel id="distrotv-golf-network">
     <display-name>Golf Network</display-name>
