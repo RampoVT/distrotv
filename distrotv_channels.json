@@ -1,14 +1,5 @@
 [
     {
-        "id": "distrotv-outside-tv",
-        "raw_id": "outside-tv",
-        "name": "Outside",
-        "stream_url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/outsidetv/playlist.m3u8",
-        "logo": "https://a.jsrdn.com/hls/22765/outside-tv/logo_20231219_220634_59.png",
-        "group": "Sports",
-        "description": "The ultimate channel of adventure sports and outdoor lifestyle videos, proving high-quality, compelling storylines focused on a wide variety of sports including skiing & snowboarding, surfing, climbing, mountain biking, kayaking and more."
-    },
-    {
         "id": "distrotv-newsmax-tv",
         "raw_id": "newsmax-tv",
         "name": "Newsmax TV",

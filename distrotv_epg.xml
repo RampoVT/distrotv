@@ -1,9 +1,5 @@
 <?xml version="1.0" ?>
 <tv generator-info-name="DistroTV-Scraper-V5">
-  <channel id="distrotv-outside-tv">
-    <display-name>Outside</display-name>
-    <icon src="https://a.jsrdn.com/hls/22765/outside-tv/logo_20231219_220634_59.png"/>
-  </channel>
   <channel id="distrotv-newsmax-tv">
     <display-name>Newsmax TV</display-name>
     <icon src="https://a.jsrdn.com/hls/22819/newsmax-tv/logo_20231219_220350_38.png"/>
