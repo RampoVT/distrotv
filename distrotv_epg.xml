@@ -124,14 +124,6 @@
     <display-name>Revry Her</display-name>
     <icon src="https://a.jsrdn.com/hls/22919/revry-her/logo_20231219_221435_68.png"/>
   </channel>
-  <channel id="distrotv-euronews">
-    <display-name>Euronews</display-name>
-    <icon src="https://a.jsrdn.com/hls/22886/euronews/logo_20231218_175557_70.png"/>
-  </channel>
-  <channel id="distrotv-euronews-spa">
-    <display-name>Euronews Español</display-name>
-    <icon src="https://a.jsrdn.com/hls/22886/euronews-spa/logo_20231218_175505_70.png"/>
-  </channel>
   <channel id="distrotv-xfc-tv">
     <display-name>XFC TV</display-name>
     <icon src="https://a.jsrdn.com/hls/22915/xfc-tv/logo_20231219_224405_58.png"/>
@@ -151,10 +143,6 @@
   <channel id="distrotv-true-history">
     <display-name>True History</display-name>
     <icon src="https://a.jsrdn.com/hls/23001/true-history/logo_20231219_223655_68.png"/>
-  </channel>
-  <channel id="distrotv-africanews">
-    <display-name>Africanews</display-name>
-    <icon src="https://a.jsrdn.com/hls/22886/africanews/logo_20231218_175639_70.png"/>
   </channel>
   <channel id="distrotv-watchit-kid">
     <display-name>Watchit Kid!</display-name>

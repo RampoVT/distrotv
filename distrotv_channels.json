@@ -279,24 +279,6 @@
         "description": "Welcome to Revry Her, the first 24/7 live TV channel exclusively catering to queer Womxn. Enjoy Femxle focused movies, television and digital series."
     },
     {
-        "id": "distrotv-euronews",
-        "raw_id": "euronews",
-        "name": "Euronews",
-        "stream_url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/euronews/euronews-en.m3u8",
-        "logo": "https://a.jsrdn.com/hls/22886/euronews/logo_20231218_175557_70.png",
-        "group": "News",
-        "description": "Europe\u2019s leading international news channel. Its mission is to empower people to form their own opinion. Euronews is impartial with a diversity of viewpoints."
-    },
-    {
-        "id": "distrotv-euronews-spa",
-        "raw_id": "euronews-spa",
-        "name": "Euronews Espa\u00f1ol",
-        "stream_url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/euronews-spa/euronews-es.m3u8",
-        "logo": "https://a.jsrdn.com/hls/22886/euronews-spa/logo_20231218_175505_70.png",
-        "group": "News",
-        "description": "El \u00fanico canal de noticias internacional con una perspectiva europea. Su misi\u00f3n es permitir que cada uno se forme su propia opini\u00f3n. Euronews se define por su imparcialidad e independencia."
-    },
-    {
         "id": "distrotv-xfc-tv",
         "raw_id": "xfc-tv",
         "name": "XFC TV",
@@ -340,15 +322,6 @@
         "logo": "https://a.jsrdn.com/hls/23001/true-history/logo_20231219_223655_68.png",
         "group": "Education",
         "description": "True History introduces you to the moments, places, and people that have shaped modern life with the world\u2019s best and most dynamic professors as the stars of the show."
-    },
-    {
-        "id": "distrotv-africanews",
-        "raw_id": "africanews",
-        "name": "Africanews",
-        "stream_url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/africanews/africanews-en.m3u8",
-        "logo": "https://a.jsrdn.com/hls/22886/africanews/logo_20231218_175639_70.png",
-        "group": "News",
-        "description": "Africanews is the only multilingual media outlet covering the latest news and curating compelling stories across the continent from a pan-African perspective. Impartial and independent, Africanews delivers national, regional and international news, and creates a bridge between audiences across the continent and the diaspora."
     },
     {
         "id": "distrotv-watchit-kid",
