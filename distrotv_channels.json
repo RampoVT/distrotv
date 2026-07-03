@@ -1,5 +1,14 @@
 [
     {
+        "id": "distrotv-newsmax-tv",
+        "raw_id": "newsmax-tv",
+        "name": "Newsmax TV",
+        "stream_url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/newsmax-tv/index.m3u8",
+        "logo": "https://a.jsrdn.com/hls/22819/newsmax-tv/logo_20231219_220350_38.png",
+        "group": "News",
+        "description": "Newsmax covers the latest developments in politics, national and world news, health, faith, personal finance, and technology with a unique American perspective and topics that the major media often ignore."
+    },
+    {
         "id": "distrotv-oan-encore",
         "raw_id": "oan-encore",
         "name": "OAN Plus",
@@ -16,6 +25,141 @@
         "logo": "https://a.jsrdn.com/hls/22866/awe-encore/logo_20231219_184403_70.png",
         "group": "Lifestyle",
         "description": "AWE Plus is your vicarious living channel. Enjoy awe-inspiring travel destinations, outrageous cars, amazing homes and much more."
+    },
+    {
+        "id": "distrotv-stingray-qello",
+        "raw_id": "stingray-qello",
+        "name": "Qello Concerts",
+        "stream_url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/stingray/qello-qello001-montreal/distrotv/master.m3u8",
+        "logo": "https://a.jsrdn.com/hls/22865/stingray-qello/logo_20231219_221133_51.png",
+        "group": "Music",
+        "description": "Stingray Qello presents your front-row seat to concerts by your favorite artists, bands, and musicians! Experience the encore with thrilling concert-films and get up close and personal with award-winning documentaries."
+    },
+    {
+        "id": "distrotv-stingray-karaoke",
+        "raw_id": "stingray-karaoke",
+        "name": "Stingray Karaoke",
+        "stream_url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/stingray/karaoke-kar000-montreal/distrotv/master.m3u8",
+        "logo": "https://a.jsrdn.com/hls/22865/stingray-karaoke/logo_20231219_222517_68.png",
+        "group": "Music",
+        "description": "Gather with friends to sing your heart out to your favorite tracks with Stingray Karaoke. From yesterday\u2019s golden oldies to today\u2019s hits, we got you!"
+    },
+    {
+        "id": "distrotv-stingray-naturescape",
+        "raw_id": "stingray-naturescape",
+        "name": "Stingray Naturescape",
+        "stream_url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/stingray/naturescape-a003-montreal/distrotv/master.m3u8",
+        "logo": "https://a.jsrdn.com/hls/22865/stingray-naturescape/logo_20231219_222535_48.png",
+        "group": "Travel",
+        "description": "Stingray Naturescape offers you an escape to a world of stunning nature scenes, all set to peaceful soundtracks. Relax to a crackling fireplace, soar over a tropical paradise, or get inspired by a sparkling night sky, all from the comfort of home."
+    },
+    {
+        "id": "distrotv-stingray-classica",
+        "raw_id": "stingray-classica",
+        "name": "Stingray Classica",
+        "stream_url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/stingray/classica-cla008-montreal/distrotv/master.m3u8",
+        "logo": "https://a.jsrdn.com/hls/22865/stingray-classica/logo_20231219_222229_59.png",
+        "group": "Music",
+        "description": "Stingray Classica presents the most beloved masterpieces, breathtaking ballets, opulent operas, and enchanting chamber music! Start your classical music journey now to enjoy spectacular performances, recorded in the world\u2019s grandest venues, featuring world-class conductors, singers, and soloists."
+    },
+    {
+        "id": "distrotv-stingray-djazz",
+        "raw_id": "stingray-djazz",
+        "name": "Stingray DJAZZ",
+        "stream_url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/stingray/djazz-djaads-montreal/distrotv/master.m3u8",
+        "logo": "https://a.jsrdn.com/hls/22865/stingray-djazz/logo_20231219_222248_70.png",
+        "group": "Music",
+        "description": "Whether you love acid jazz, big band, ragtime, mainstream jazz, or anything in between, experience the most diverse and in-depth concert, performance, and documentary programming on Stingray DJAZZ."
+    },
+    {
+        "id": "distrotv-stingray-hit-list",
+        "raw_id": "stingray-hit-list",
+        "name": "Stingray Hit List",
+        "stream_url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/stingray-hit-list/master.m3u8",
+        "logo": "https://a.jsrdn.com/hls/22865/stingray-hit-list/logo_20231219_222438_68.png",
+        "group": "Music",
+        "description": "Tune in for a dose of today\u2019s hits and a preview of tomorrow\u2019s sensations. You\u2019ll discover the next chart-toppers before everyone else!"
+    },
+    {
+        "id": "distrotv-stingray-hot-country",
+        "raw_id": "stingray-hot-country",
+        "name": "Stingray Hot Country",
+        "stream_url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/stingray-hot-country/master.m3u8",
+        "logo": "https://a.jsrdn.com/hls/22865/stingray-hot-country/logo_20231219_222458_68.png",
+        "group": "Music",
+        "description": "Hot Country rounds up brand new country hits and favorites from the past decade."
+    },
+    {
+        "id": "distrotv-stingray-rock-alternative",
+        "raw_id": "stingray-rock-alternative",
+        "name": "Stingray Rock Alternative",
+        "stream_url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/stingray-rock-alternative/master.m3u8",
+        "logo": "https://a.jsrdn.com/hls/22865/stingray-rock-alternative/logo_20231219_222631_68.png",
+        "group": "Music",
+        "description": "Experience the intensity of the best alternative rock sound. Features hard-hitting acts like Arcade Fire, Billy Talent, The Black Keys, etc."
+    },
+    {
+        "id": "distrotv-stingray-pop-adult",
+        "raw_id": "stingray-pop-adult",
+        "name": "Stingray Pop Adult",
+        "stream_url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/stingray-pop-adult/master.m3u8",
+        "logo": "https://a.jsrdn.com/hls/22865/stingray-pop-adult/logo_20231219_222554_68.png",
+        "group": "Music",
+        "description": "A romantic mix of pop adult classics. Features current hit makers like Adele and Maroon 5, and timeless favorites such as U2 and Madonna."
+    },
+    {
+        "id": "distrotv-stingray-classic-rock",
+        "raw_id": "stingray-classic-rock",
+        "name": "Stingray Classic Rock",
+        "stream_url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/stingray-classic-rock/master.m3u8",
+        "logo": "https://a.jsrdn.com/hls/22865/stingray-classic-rock/logo_20231219_222210_68.png",
+        "group": "Music",
+        "description": "Return to the classic rock revolution of the \u201960, \u201870s, and \u201980 with legends like Janis Joplin, Peter Frampton, and The Rolling Stones."
+    },
+    {
+        "id": "distrotv-stringray-remember-the-80s",
+        "raw_id": "stringray-remember-the-80s",
+        "name": "Stingray Remember the 80s",
+        "stream_url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/stingray-remember-the-80s/master.m3u8",
+        "logo": "https://a.jsrdn.com/hls/22865/stringray-remember-the-80s/logo_20231219_222612_68.png",
+        "group": "Music",
+        "description": "Relive your neon-bright \u201880s memories with the synth-pop sound of stars such as Michael Jackson, George Michael, and Whitney Houston."
+    },
+    {
+        "id": "distrotv-stingray-todays-latin-pop",
+        "raw_id": "stingray-todays-latin-pop",
+        "name": "Stingray \u00c9xitos del Momento",
+        "stream_url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/stingray-xitos-del-momento/master.m3u8",
+        "logo": "https://a.jsrdn.com/hls/22865/stingray-todays-latin-pop/logo_20231219_222310_55.png",
+        "group": "Music",
+        "description": "Dance along to today's hottest Latin music in genres such as salsa, samba, merengue, flamenco, tango, reggaeton, and reggae."
+    },
+    {
+        "id": "distrotv-stingray-greatest-hits",
+        "raw_id": "stingray-greatest-hits",
+        "name": "Stingray Greatest Hits",
+        "stream_url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/stingray-greatest-hits/master.m3u8",
+        "logo": "https://a.jsrdn.com/hls/22865/stingray-greatest-hits/logo_20231219_222354_68.png",
+        "group": "Music",
+        "description": "A channel filled with the greatest hits by the most popular bands and artists of all time. A guaranteed crowd-pleaser for every occasion."
+    },
+    {
+        "id": "distrotv-stingray-hiphop-and-rnb",
+        "raw_id": "stingray-hiphop-and-rnb",
+        "name": "Stingray HipHop and RnB",
+        "stream_url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/stingray-hiphop-and-rnb/master.m3u8",
+        "logo": "https://a.jsrdn.com/hls/22865/stingray-hiphop-and-rnb/logo_20231219_222417_68.png",
+        "group": "Music",
+        "description": "Turn up the volume on the grittiest sounds of today's hip hop scene, featuring hits by Beyonc\u00e9, T-Pain, Rick Ross, Nicki Minaj, etc."
+    },
+    {
+        "id": "distrotv-stingray-flashback-70s",
+        "raw_id": "stingray-flashback-70s",
+        "name": "Stingray Flashback 70s",
+        "stream_url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/stingray-flashback-70s/master.m3u8",
+        "logo": "https://a.jsrdn.com/hls/22865/stingray-flashback-70s/logo_20231219_222333_68.png",
+        "group": "Music",
+        "description": "Travel back to an explosive decade in music when Abba, Jackson 5, Kool and the Gang, the Bee Gees, and Carole King reigned on the charts."
     },
     {
         "id": "distrotv-schwab-network",
@@ -144,6 +288,33 @@
         "description": "Welcome to XFC TV! Home of the XFC FightWorld Network."
     },
     {
+        "id": "distrotv-shoplc",
+        "raw_id": "shoplc",
+        "name": "ShopLC",
+        "stream_url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/shoplc/master.m3u8",
+        "logo": "https://a.jsrdn.com/hls/22957/shoplc/logo_20231219_221828_30.png",
+        "group": "Lifestyle",
+        "description": "Shop LC, the fastest growing video shopping network in America, offers you the lowest prices and greatest value guaranteed\u2026From designer jewelry, watches, beauty products, fashionable apparel and handbags, great gift items and accessories\u2026 and so much more!! Shop LC, Delivering Joy 24/7/365!"
+    },
+    {
+        "id": "distrotv-journy",
+        "raw_id": "journy",
+        "name": "Journy",
+        "stream_url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/journy/playlist.m3u8",
+        "logo": "https://a.jsrdn.com/hls/22944/journy/logo_20231219_214422_44.png",
+        "group": "Travel",
+        "description": "JOURNY is the only channel at the intersection of travel, art, and culture! Watch curated content focused on immersive experiences and unique storytelling."
+    },
+    {
+        "id": "distrotv-real-americas-voice",
+        "raw_id": "real-americas-voice",
+        "name": "Real America's Voice",
+        "stream_url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/real-americas-voice/RAVDistroTV.m3u8",
+        "logo": "https://a.jsrdn.com/hls/22995/real-americas-voice/logo_20231219_221226_64.png",
+        "group": "News",
+        "description": "Delivering news programs and live-event coverage that captures the authentic voice and passion of real people all across America. Just Real News & Honest Views!"
+    },
+    {
         "id": "distrotv-true-history",
         "raw_id": "true-history",
         "name": "True History",
@@ -162,11 +333,11 @@
         "description": "An Epic Collection of Pop culture animation with never before seen originals for viewers of all ages, gamers and everyone!"
     },
     {
-        "id": "distrotv-fuel-tv-ww",
-        "raw_id": "fuel-tv-ww",
+        "id": "distrotv-fuel-tv",
+        "raw_id": "fuel-tv",
         "name": "FUEL TV",
-        "stream_url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/fuel-tv-ww/playlist.m3u8",
-        "logo": "https://a.jsrdn.com/hls/23055/fuel-tv-ww/logo_20231219_202054_68.png",
+        "stream_url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/fuel-tv/playlist.m3u8",
+        "logo": "https://a.jsrdn.com/hls/23055/fuel-tv/logo_20231219_202037_68.png",
         "group": "Sports",
         "description": "FUEL TV is the only channel dedicated 24/7 to the core action sports of Skateboarding, Surfing, BMX, Snow, Mountain Bike, Wakeboard and all the lifestyle that surrounds them, where Music, Art and Fashion play a decisive role."
     },
@@ -270,6 +441,15 @@
         "description": "Embracing the process, trying new things, reveling in surprises and imperfections; all contribute to the\u00a0immense satisfaction that comes from lifelong learning. CraftsyTV is your always-on portal for tapping into\u00a0your talents by learning new skills and enhancing those you have."
     },
     {
+        "id": "distrotv-jewish-life-television-jltv",
+        "raw_id": "jewish-life-television-jltv",
+        "name": "Jewish Life Television JLTV",
+        "stream_url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/jewish-life-television-jltv/jltv.m3u8",
+        "logo": "https://a.jsrdn.com/hls/23114/jewish-life-television-jltv/logo_20231219_214334_56.png",
+        "group": "Lifestyle",
+        "description": "Jewish Life Television is the nation's largest, most robust Jewish-themed television network. More cultural than religious, JLTV offers entertaining, high-quality programming appealing to viewers of all faiths interested in the history, lifestyle and experience of the Jewish people in the United States, in Israel and around the World."
+    },
+    {
         "id": "distrotv-crematv",
         "raw_id": "crematv",
         "name": "crema.tv",
@@ -277,6 +457,24 @@
         "logo": "https://a.jsrdn.com/hls/22886/crematv/logo_20231219_192845_64.png",
         "group": "Entertainment",
         "description": "crema.tv\u00a0is the world's only lifestyle entertainment channel about coffee!\u00a0crema.tv\u00a0guides you on all aspects of coffee making, coffee gear, coffee lifestyles, coffee cultures and so much more. \u00a0Follow awesome coffee aficionados with their bean stories.\u00a0Discover the soul of coffee \u2013 on\u00a0crema.tv!"
+    },
+    {
+        "id": "distrotv-romance-channel",
+        "raw_id": "romance-channel",
+        "name": "Romance Channel",
+        "stream_url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/romance-channel/manifest.m3u8",
+        "logo": "https://a.jsrdn.com/hls/23077/romance-channel/logo_20231219_221635_53.png",
+        "group": "Entertainment",
+        "description": "Romance Channel es un mundo donde cada historia de amor es \u00fanica. \u00bfBuscas romance, drama, suspenso o comedia? \u00a1En nuestras pel\u00edculas lo encontrar\u00e1s todo! Desde historias simples y conmovedoras hasta relatos complejos y cautivadores. Romance Channel \u2013 step into the world where every love story unfolds with an allure. Whether you're in the mood for romance, drama, mystery, or comedy, we've got films and TV series for everyone! From sweet tales of first love to more intricate plots."
+    },
+    {
+        "id": "distrotv-ntd-news",
+        "raw_id": "ntd-news",
+        "name": "NTD News",
+        "stream_url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/ntd-news/ntd.m3u8",
+        "logo": "https://a.jsrdn.com/hls/23136/ntd-news/logo_20240104_172901_68.png",
+        "group": "News",
+        "description": "An independent global news network delivering truthful and uncensored news from the US and beyond.\u00a0We cover the issues that affect you and shape our world, without the political noise. We\u2019re famous for our thoughtful in-depth analyses and our\u00a0speciality\u2014China coverage you won't find anywhere else."
     },
     {
         "id": "distrotv-mediacorp-entertainment-chinese",
@@ -331,6 +529,24 @@
         "logo": "https://a.jsrdn.com/hls/23064/powertube-tv/logo_20250617_213124_70.png",
         "group": "Lifestyle",
         "description": "POWERtube TV features racing, high-performance builds, grassroots motorsports, and classic hit series such as PINKS, Pass Time, and PINKS All Out."
+    },
+    {
+        "id": "distrotv-screams-tv-by-trinian",
+        "raw_id": "screams-tv-by-trinian",
+        "name": "Screams TV by Trinian",
+        "stream_url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/screams-tv-by-trinian/manifest.m3u8",
+        "logo": "https://a.jsrdn.com/hls/23064/screams-tv-by-trinian/logo_20250617_213711_70.png",
+        "group": "Entertainment",
+        "description": "Trinian Screams TV \u2013 where nightmares never end! Watch the scariest horror movies, from bone-chilling classics to modern-day terrors. Dare to watch?"
+    },
+    {
+        "id": "distrotv-gritos-tv-by-trinian",
+        "raw_id": "gritos-tv-by-trinian",
+        "name": "Gritos TV by Trinian",
+        "stream_url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/gritos-tv-by-trinian/manifest.m3u8",
+        "logo": "https://a.jsrdn.com/hls/23064/gritos-tv-by-trinian/logo_20250617_214111_70.png",
+        "group": "Entertainment",
+        "description": "Trinian Gritos TV - \u00a1donde las pesadillas nunca terminan! Vea las pel\u00edculas de terror m\u00e1s espeluznantes, desde los cl\u00e1sicos m\u00e1s escalofriantes hasta los terrores de hoy en d\u00eda. \u00bfTe atreves?"
     },
     {
         "id": "distrotv-mi-raza-canal",
@@ -583,5 +799,14 @@
         "logo": "https://a.jsrdn.com/hls/23064/the-ring-tv/logo_20260324_015855_68.png",
         "group": "Sports",
         "description": "THE RING TV is a combat sports channel featuring events across wrestling, boxing and MMA. From explosive matches to behind-the-scenes content and interviews, it delivers an immersive experience for fight fans worldwide."
+    },
+    {
+        "id": "distrotv-tyc-sports-fan",
+        "raw_id": "tyc-sports-fan",
+        "name": "TyC Sports FAN",
+        "stream_url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/tyc-sports-fan/manifest.m3u8",
+        "logo": "https://a.jsrdn.com/hls/23064/tyc-sports-fan/logo_20260324_020328_68.png",
+        "group": "Sports",
+        "description": "A premium football channel dedicated to Argentine soccer, featuring matches, highlights and exclusive programming. From legendary clubs to rising stars, TyC Sports FAN delivers an authentic and high-energy football experience that connects fans worldwide to the passion of Argentine football."
     }
 ]
