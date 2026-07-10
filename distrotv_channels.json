@@ -1,32 +1,5 @@
 [
     {
-        "id": "distrotv-newsmax-tv",
-        "raw_id": "newsmax-tv",
-        "name": "Newsmax TV",
-        "stream_url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/newsmax-tv/index.m3u8",
-        "logo": "https://a.jsrdn.com/hls/22819/newsmax-tv/logo_20231219_220350_38.png",
-        "group": "News",
-        "description": "Newsmax covers the latest developments in politics, national and world news, health, faith, personal finance, and technology with a unique American perspective and topics that the major media often ignore."
-    },
-    {
-        "id": "distrotv-oan-encore",
-        "raw_id": "oan-encore",
-        "name": "OAN Plus",
-        "stream_url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/oan-encore/playlist.m3u8",
-        "logo": "https://a.jsrdn.com/hls/22866/oan-encore/logo_20231219_220536_57.png",
-        "group": "News",
-        "description": "Tune in to OAN Plus for the nation\u2019s top rated prime time political talk shows and get informed!"
-    },
-    {
-        "id": "distrotv-awe-encore",
-        "raw_id": "awe-encore",
-        "name": "AWE Plus",
-        "stream_url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/awe-encore/playlist.m3u8",
-        "logo": "https://a.jsrdn.com/hls/22866/awe-encore/logo_20231219_184403_70.png",
-        "group": "Lifestyle",
-        "description": "AWE Plus is your vicarious living channel. Enjoy awe-inspiring travel destinations, outrageous cars, amazing homes and much more."
-    },
-    {
         "id": "distrotv-stingray-qello",
         "raw_id": "stingray-qello",
         "name": "Qello Concerts",
@@ -189,132 +162,6 @@
         "description": "World Poker Tour ignited the global poker boom with a unique television show based on a series of high-stakes tournaments. WPT events turned Gus Hansen into the Great Dane and Daniel Negreanu into Kid Poker, and created dozens of poker-made millionaires."
     },
     {
-        "id": "distrotv-business-rockstars",
-        "raw_id": "business-rockstars",
-        "name": "Business Rockstars",
-        "stream_url": "https://stream-us-east-1.getpublica.com/playlist.m3u8",
-        "logo": "https://a.jsrdn.com/hls/22915/business-rockstars/logo_20231219_185120_58.png",
-        "group": "Business",
-        "description": "Entrepreneur TV insight and perspectives from industries leading entrepreneurs and startups."
-    },
-    {
-        "id": "distrotv-cinepride",
-        "raw_id": "cinepride",
-        "name": "Cinepride",
-        "stream_url": "https://stream-us-east-1.getpublica.com/playlist.m3u8",
-        "logo": "https://a.jsrdn.com/hls/22915/cinepride/logo_20231219_192429_27.png",
-        "group": "Entertainment",
-        "description": "Award winning LGBTQ cinema, from critically acclaimed dramas to underground cult hits."
-    },
-    {
-        "id": "distrotv-dungeon-tv",
-        "raw_id": "dungeon-tv",
-        "name": "Dungeon TV",
-        "stream_url": "https://stream-us-east-1.getpublica.com/playlist.m3u8",
-        "logo": "https://a.jsrdn.com/hls/22915/dungeon-tv/logo_20231219_200859_58.png",
-        "group": "Entertainment",
-        "description": "Follow the life and stories of 6 Dungeons and Dragons role-players in the early tide of an interactive war."
-    },
-    {
-        "id": "distrotv-frightflix",
-        "raw_id": "frightflix",
-        "name": "Frightflix",
-        "stream_url": "https://stream-us-east-1.getpublica.com/playlist.m3u8",
-        "logo": "https://a.jsrdn.com/hls/22915/frightflix/logo_20231219_201959_68.png",
-        "group": "Entertainment",
-        "description": "Cult Horror, Sci-Fi and Grindhouse features that deliver shivers!"
-    },
-    {
-        "id": "distrotv-galxy-tv",
-        "raw_id": "galxy-tv",
-        "name": "Galxy TV",
-        "stream_url": "https://stream-us-east-1.getpublica.com/playlist.m3u8",
-        "logo": "https://a.jsrdn.com/hls/22915/galxy-tv/logo_20231219_202129_68.png",
-        "group": "Entertainment",
-        "description": "An Interstellar oasis of Film and TV from creators with a vision that is beyond the ordinary."
-    },
-    {
-        "id": "distrotv-screendreams-by-invincible",
-        "raw_id": "screendreams-by-invincible",
-        "name": "Screendreams by Invincible",
-        "stream_url": "https://stream-us-east-1.getpublica.com/playlist.m3u8",
-        "logo": "https://a.jsrdn.com/hls/22915/screendreams-by-invincible/logo_20231219_221808_45.png",
-        "group": "Entertainment",
-        "description": "Enjoy the best in galleries, screensavers and wallpapers...home of the living fireplace."
-    },
-    {
-        "id": "distrotv-ski-tv",
-        "raw_id": "ski-tv",
-        "name": "Slopes TV",
-        "stream_url": "https://stream-us-east-1.getpublica.com/playlist.m3u8",
-        "logo": "https://a.jsrdn.com/hls/22915/ski-tv/logo_20231219_221909_68.png",
-        "group": "Sports",
-        "description": "Get ready to hit the slopes! Slopes TV is the world's first magazine style, snow, ski and snowboard channel"
-    },
-    {
-        "id": "distrotv-watchit-scream",
-        "raw_id": "watchit-scream",
-        "name": "Watchit Scream!",
-        "stream_url": "https://stream-us-east-1.getpublica.com/playlist.m3u8",
-        "logo": "https://a.jsrdn.com/hls/22915/watchit-scream/logo_20231219_224119_67.png",
-        "group": "Entertainment",
-        "description": "Some of the most terrifying visions the horror genre has put to film, curated from festivals around the world, sit back relax and Watch it Scream!"
-    },
-    {
-        "id": "distrotv-revry",
-        "raw_id": "revry",
-        "name": "Revry",
-        "stream_url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/revry/playlist.m3u8",
-        "logo": "https://a.jsrdn.com/hls/22919/revry/logo_20231219_221503_68.png",
-        "group": "Lifestyle",
-        "description": "Live LGBTQ+ TV with a focus on lifestyle and entertainment for the whole family."
-    },
-    {
-        "id": "distrotv-revry-her",
-        "raw_id": "revry-her",
-        "name": "Revry Her",
-        "stream_url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/revry-her/playlist.m3u8",
-        "logo": "https://a.jsrdn.com/hls/22919/revry-her/logo_20231219_221435_68.png",
-        "group": "Lifestyle",
-        "description": "Welcome to Revry Her, the first 24/7 live TV channel exclusively catering to queer Womxn. Enjoy Femxle focused movies, television and digital series."
-    },
-    {
-        "id": "distrotv-xfc-tv",
-        "raw_id": "xfc-tv",
-        "name": "XFC TV",
-        "stream_url": "https://stream-us-east-1.getpublica.com/playlist.m3u8",
-        "logo": "https://a.jsrdn.com/hls/22915/xfc-tv/logo_20231219_224405_58.png",
-        "group": "Sports",
-        "description": "Welcome to XFC TV! Home of the XFC FightWorld Network."
-    },
-    {
-        "id": "distrotv-shoplc",
-        "raw_id": "shoplc",
-        "name": "ShopLC",
-        "stream_url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/shoplc/master.m3u8",
-        "logo": "https://a.jsrdn.com/hls/22957/shoplc/logo_20231219_221828_30.png",
-        "group": "Lifestyle",
-        "description": "Shop LC, the fastest growing video shopping network in America, offers you the lowest prices and greatest value guaranteed\u2026From designer jewelry, watches, beauty products, fashionable apparel and handbags, great gift items and accessories\u2026 and so much more!! Shop LC, Delivering Joy 24/7/365!"
-    },
-    {
-        "id": "distrotv-journy",
-        "raw_id": "journy",
-        "name": "Journy",
-        "stream_url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/journy/playlist.m3u8",
-        "logo": "https://a.jsrdn.com/hls/22944/journy/logo_20231219_214422_44.png",
-        "group": "Travel",
-        "description": "JOURNY is the only channel at the intersection of travel, art, and culture! Watch curated content focused on immersive experiences and unique storytelling."
-    },
-    {
-        "id": "distrotv-real-americas-voice",
-        "raw_id": "real-americas-voice",
-        "name": "Real America's Voice",
-        "stream_url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/real-americas-voice/RAVDistroTV.m3u8",
-        "logo": "https://a.jsrdn.com/hls/22995/real-americas-voice/logo_20231219_221226_64.png",
-        "group": "News",
-        "description": "Delivering news programs and live-event coverage that captures the authentic voice and passion of real people all across America. Just Real News & Honest Views!"
-    },
-    {
         "id": "distrotv-true-history",
         "raw_id": "true-history",
         "name": "True History",
@@ -322,33 +169,6 @@
         "logo": "https://a.jsrdn.com/hls/23001/true-history/logo_20231219_223655_68.png",
         "group": "Education",
         "description": "True History introduces you to the moments, places, and people that have shaped modern life with the world\u2019s best and most dynamic professors as the stars of the show."
-    },
-    {
-        "id": "distrotv-watchit-kid",
-        "raw_id": "watchit-kid",
-        "name": "Watchit Kid!",
-        "stream_url": "https://stream-us-east-1.getpublica.com/playlist.m3u8",
-        "logo": "https://a.jsrdn.com/hls/22915/watchit-kid/logo_20231219_224059_68.png",
-        "group": "Entertainment",
-        "description": "An Epic Collection of Pop culture animation with never before seen originals for viewers of all ages, gamers and everyone!"
-    },
-    {
-        "id": "distrotv-fuel-tv",
-        "raw_id": "fuel-tv",
-        "name": "FUEL TV",
-        "stream_url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/fuel-tv/playlist.m3u8",
-        "logo": "https://a.jsrdn.com/hls/23055/fuel-tv/logo_20231219_202037_68.png",
-        "group": "Sports",
-        "description": "FUEL TV is the only channel dedicated 24/7 to the core action sports of Skateboarding, Surfing, BMX, Snow, Mountain Bike, Wakeboard and all the lifestyle that surrounds them, where Music, Art and Fashion play a decisive role."
-    },
-    {
-        "id": "distrotv-gusto-tv",
-        "raw_id": "gusto-tv",
-        "name": "Gusto TV",
-        "stream_url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/gusto-tv/playlist.m3u8",
-        "logo": "https://a.jsrdn.com/hls/23062/gusto-tv/logo_20231219_202519_56.png",
-        "group": "Lifestyle",
-        "description": "Gusto TV is the world's best food channel. With diverse cuisines, inspiring recipes, and dynamic hosts, our award-winning food programming is a feast for the eyes."
     },
     {
         "id": "distrotv-4k-travel-tv",
@@ -441,15 +261,6 @@
         "description": "Embracing the process, trying new things, reveling in surprises and imperfections; all contribute to the\u00a0immense satisfaction that comes from lifelong learning. CraftsyTV is your always-on portal for tapping into\u00a0your talents by learning new skills and enhancing those you have."
     },
     {
-        "id": "distrotv-jewish-life-television-jltv",
-        "raw_id": "jewish-life-television-jltv",
-        "name": "Jewish Life Television JLTV",
-        "stream_url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/jewish-life-television-jltv/jltv.m3u8",
-        "logo": "https://a.jsrdn.com/hls/23114/jewish-life-television-jltv/logo_20231219_214334_56.png",
-        "group": "Lifestyle",
-        "description": "Jewish Life Television is the nation's largest, most robust Jewish-themed television network. More cultural than religious, JLTV offers entertaining, high-quality programming appealing to viewers of all faiths interested in the history, lifestyle and experience of the Jewish people in the United States, in Israel and around the World."
-    },
-    {
         "id": "distrotv-crematv",
         "raw_id": "crematv",
         "name": "crema.tv",
@@ -459,15 +270,6 @@
         "description": "crema.tv\u00a0is the world's only lifestyle entertainment channel about coffee!\u00a0crema.tv\u00a0guides you on all aspects of coffee making, coffee gear, coffee lifestyles, coffee cultures and so much more. \u00a0Follow awesome coffee aficionados with their bean stories.\u00a0Discover the soul of coffee \u2013 on\u00a0crema.tv!"
     },
     {
-        "id": "distrotv-romance-channel",
-        "raw_id": "romance-channel",
-        "name": "Romance Channel",
-        "stream_url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/romance-channel/manifest.m3u8",
-        "logo": "https://a.jsrdn.com/hls/23077/romance-channel/logo_20231219_221635_53.png",
-        "group": "Entertainment",
-        "description": "Romance Channel es un mundo donde cada historia de amor es \u00fanica. \u00bfBuscas romance, drama, suspenso o comedia? \u00a1En nuestras pel\u00edculas lo encontrar\u00e1s todo! Desde historias simples y conmovedoras hasta relatos complejos y cautivadores. Romance Channel \u2013 step into the world where every love story unfolds with an allure. Whether you're in the mood for romance, drama, mystery, or comedy, we've got films and TV series for everyone! From sweet tales of first love to more intricate plots."
-    },
-    {
         "id": "distrotv-ntd-news",
         "raw_id": "ntd-news",
         "name": "NTD News",
@@ -475,42 +277,6 @@
         "logo": "https://a.jsrdn.com/hls/23136/ntd-news/logo_20240104_172901_68.png",
         "group": "News",
         "description": "An independent global news network delivering truthful and uncensored news from the US and beyond.\u00a0We cover the issues that affect you and shape our world, without the political noise. We\u2019re famous for our thoughtful in-depth analyses and our\u00a0speciality\u2014China coverage you won't find anywhere else."
-    },
-    {
-        "id": "distrotv-mediacorp-entertainment-chinese",
-        "raw_id": "mediacorp-entertainment-chinese",
-        "name": "Mediacorp Entertainment \u2013 Chinese",
-        "stream_url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/mediacorp-entertainment-chinese/manifest.m3u8",
-        "logo": "https://a.jsrdn.com/hls/23077/mediacorp-entertainment-chinese/logo_20240102_185716_70.png",
-        "group": "Entertainment",
-        "description": "Mediacorp Entertainment is the entertainment and lifestyle channel for the entire family! This is where you will find high-quality and innovative productions where stories are told through the lens of Asia. From love, action, thriller and family dramas to keep you at the edge of your seat, to food and travel programmes that bring you on a whirlwind journey of tastes and places, there\u2019s something for everyone. Here you will also find a curated collection of Asian programmes in three languages, Chinese, English and Tamil."
-    },
-    {
-        "id": "distrotv-mediacorp-entertainment-english",
-        "raw_id": "mediacorp-entertainment-english",
-        "name": "Mediacorp Entertainment \u2013 English",
-        "stream_url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/mediacorp-entertainment-english/manifest.m3u8",
-        "logo": "https://a.jsrdn.com/hls/23077/mediacorp-entertainment-english/logo_20240102_190017_70.png",
-        "group": "Entertainment",
-        "description": "Mediacorp Entertainment is the entertainment and lifestyle channel for the entire family! This is where you will find high-quality and innovative productions where stories are told through the lens of Asia. From love, action, thriller and family dramas to keep you at the edge of your seat, to food and travel programmes that bring you on a whirlwind journey of tastes and places, there\u2019s something for everyone. Here you will also find a curated collection of Asian programmes in three languages, Chinese, English and Tamil."
-    },
-    {
-        "id": "distrotv-mediacorp-entertainment-tamil",
-        "raw_id": "mediacorp-entertainment-tamil",
-        "name": "Mediacorp Entertainment \u2013 Tamil",
-        "stream_url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/mediacorp-entertainment-tamil/manifest.m3u8",
-        "logo": "https://a.jsrdn.com/hls/23077/mediacorp-entertainment-tamil/logo_20240102_190222_70.png",
-        "group": "Entertainment",
-        "description": "Mediacorp Entertainment is the entertainment and lifestyle channel for the entire family! This is where you will find high-quality and innovative productions where stories are told through the lens of Asia. From love, action, thriller and family dramas to keep you at the edge of your seat, to food and travel programmes that bring you on a whirlwind journey of tastes and places, there\u2019s something for everyone. Here you will also find a curated collection of Asian programmes in three languages, Chinese, English and Tamil."
-    },
-    {
-        "id": "distrotv-the-reuters-60",
-        "raw_id": "the-reuters-60",
-        "name": "The Reuters 60",
-        "stream_url": "https://amg00453-amg00453c1-distrotv-us-7691.playouts.now.amagi.tv/playlist/amg00453-reuters-reuters-distrotvus/playlist.m3u8",
-        "logo": "https://a.jsrdn.com/hls/23221/the-reuters-60/logo_20250522_175421_70.png",
-        "group": "News",
-        "description": "Catch up on what\u2019s happening in the world in 60 minutes\u00a0with Reuters News."
     },
     {
         "id": "distrotv-unchainedtv",
@@ -682,15 +448,6 @@
         "logo": "https://a.jsrdn.com/hls/23064/bollywood-tv/logo_20260310_213535_68.png",
         "group": "Entertainment",
         "description": "BOLLYWOOD TV is your ultimate destination for Hindi entertainment, featuring a wide selection of movies and series from timeless classics to the latest hits. Blending action, drama, romance and comedy, it delivers nonstop Bollywood magic for audiences worldwide."
-    },
-    {
-        "id": "distrotv-the-homestyle-channel",
-        "raw_id": "the-homestyle-channel",
-        "name": "The Homestyle Channel",
-        "stream_url": "https://amg02585-amg02585c1-amgplt0081.playout.now3.amagi.tv/ts-us-w2-n1/playlist/amg02585-amg02585c1-amgplt0081/playlist.m3u8",
-        "logo": "https://a.jsrdn.com/hls/23250/the-homestyle-channel/logo_20260317_181928_68.png",
-        "group": "Lifestyle",
-        "description": "The Homestyle Channel is your one stop for everything HOME, from DIY to Design to Remodeling. Our group of professionals will show audiences how to organize their kitchens, design a picture wall, and learn about mortgage rates and loans. Homestyle is for everyone; renters, new home owners, and seasoned buyers and sellers."
     },
     {
         "id": "distrotv-hunt-fish-tv",
